@@ -7,21 +7,26 @@ const path = require('path');
 const root_path = '/Users/evertosilva/Desktop/carrier_script/';
 
 const init = async () => {
-    let converted_sheet = convert_sheet_to_json(await find_by_name_and_extension('../', 'Conductor y Vehiculo', 'xlsx'))
+    //let converted_sheet = convert_sheet_to_json(await find_by_name_and_extension('../', 'Conductor y Vehiculo', 'xlsx'))
 
-    export_to_json_file('driver', converted_sheet, './converted_sheet')
+    //await export_to_json_file('driver', converted_sheet, './converted_sheet')
 
-    let files = await find_by_name_and_extension('./converted_sheet', 'driver', 'json')
+    //let files = await find_by_name_and_extension('./converted_sheet', 'driver', 'json')
 
-    let latest_file = files[files.length - 1]
+    //let latest_file = files[files.length - 1]
 
-    let parsedData = await parse_data_to_javascript_object('./converted_sheet', latest_file)
+    //let parsedData = await parse_data_to_javascript_object('./converted_sheet', latest_file)
 
-    console.log(parsedData)
+    //console.log(parsedData)
 }
 
-const generate_divergent_json = () => {
+const generate_divergent_json = async () => {
     console.log(`Checking for divergent drivers from the carrier ${1}`)
+
+    axios.defaults.timeout = 5000;
+
+    let req = await axios.get()
+
 }
 
 const backup = async () => {
@@ -69,10 +74,10 @@ const convert_sheet_to_json = (file) => {
     }
 }
 
-const export_to_json_file = (name, content, path) => {
+const export_to_json_file = async (name, content, path) => {
     console.log(`Export ${name} to a json file to ${path}`)
 
-    fs.writeFile(`${path}/${name}_${moment().format('DD_MM_yyyy_HH:mm:ss')}.json`, JSON.stringify(content, null, 2), function (err) {
+    await fs.writeFile(`${path}/${name}_${moment().format('DD_MM_yyyy_HH:mm:ss')}.json`, JSON.stringify(content, null, 2), function (err) {
         if (err) throw err;
     })
 }
