@@ -2,7 +2,7 @@ const fs = require('fs');
 const https = require('https');
 const axios = require('axios');
 
-export const init = async () => {
+const init = async () => {
     console.log("Carrier Script Start")
 }
 
