@@ -1,4 +1,3 @@
-const https = require('https');
 const xlsx = require('xlsx');
 const moment = require("moment");
 const axios = require("axios");
@@ -8,21 +7,25 @@ const path = require('path');
 const root_path = '/Users/evertosilva/Desktop/carrier_script/';
 
 const init = async () => {
-    //let converted_sheet = convert_sheet_to_json(await find_by_file_name_and_file_extension('../', 'Conductor y Vehiculo', 'xlsx'))
+    let converted_sheet = convert_sheet_to_json(await find_by_name_and_extension('../', 'Conductor y Vehiculo', 'xlsx'))
 
-    //export_to_json_file('driver', converted_sheet, './converted_sheet')
+    export_to_json_file('driver', converted_sheet, './converted_sheet')
 
-    let files = await find_by_file_name_and_file_extension('./converted_sheet', 'driver_27_11_2022', 'json')
+    let files = await find_by_name_and_extension('./converted_sheet', 'driver', 'json')
 
-    let parsedData = await parse_data_to_javascript_objetct('./converted_sheet', files[0])
+    let latest_file = files[files.length - 1]
+
+    let parsedData = await parse_data_to_javascript_object('./converted_sheet', latest_file)
+
+    console.log(parsedData)
 }
 
 const generate_divergent_json = () => {
-
+    console.log(`Checking for divergent drivers from the carrier ${1}`)
 }
 
 const backup = async () => {
-
+    console.log("Create backup of drivers...")
 }
 
 const register_drivers = async (value) => {
@@ -79,26 +82,34 @@ const sleep = (time) => {
 }
 
 
-const find_by_file_name_and_file_extension = async (dir, name, ext) => {
-    const matchedFiles = [];
+const find_by_name_and_extension = async (dir, name, ext) => {
+    try {
+        const matchedFiles = [];
 
-    const files = await fs.readdir(dir);
+        const files = await fs.readdir(dir);
 
-    for (const file of files) {
-        const fileExt = path.extname(file);
+        for (const file of files) {
+            const fileExt = path.extname(file);
 
-        if (fileExt === `.${ext}` && file.startsWith(name)) {
-            matchedFiles.push(file);
+            if (fileExt === `.${ext}` && file.startsWith(name)) {
+                matchedFiles.push(file);
+            }
+        }
+
+        return matchedFiles;
+    }catch (err){
+        if (err.code === 'ENOENT') {
+            console.log("File not found, check if the name, path or extension are correct")
+        }else {
+            throw err
         }
     }
-
-    return matchedFiles;
 };
 
-const parse_data_to_javascript_objetct = async (folder_path, file_name) => {
+const parse_data_to_javascript_object = async (folder_path, file_name) => {
     try {
         console.log(`Parsing ${file_name} to Javascript Object...`)
-        return JSON.parse(await fs.readFile(`${folder_path}/${file_name}`, null));
+        return JSON.parse((await fs.readFile(`${folder_path}/${file_name}`, null)).toString());
     } catch (err) {
         console.log(err)
     }
