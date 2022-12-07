@@ -26,6 +26,8 @@ const init = async (carrier_name) => {
     await backup(carrier_name, drivers)
 
     await register_drivers(carrier_name, drivers)
+
+    console.log('END')
 }
 
 const get_carrier_id_by_driver_id = async (driver_id) => {
@@ -51,8 +53,6 @@ const generate_divergent_json = async (carrier_name, drivers) => {
 
         let carrier_id = await get_carrier_id_by_driver_id(drivers[0].id)
 
-        axios.defaults.timeout = 5000;
-
         let req = await axios.get('https://internal-api.mercadolibre.com/logistics/drivers/search', {
             params: {
                 'carrier_id': carrier_id
@@ -65,7 +65,7 @@ const generate_divergent_json = async (carrier_name, drivers) => {
 
         let diff_between_drivers_list = res.filter(driver1 => !drivers.some(driver2 => driver1.driver_id === driver2.id));
 
-        if(diff_between_drivers_list.length > 0){
+        if (diff_between_drivers_list.length > 0) {
             await export_to_json_file(`divergent_driver_${carrier_name}`, diff_between_drivers_list, './divergent_driver')
         }
     } catch (err) {
@@ -92,21 +92,39 @@ const backup = async (carrier_name, drivers) => {
         }
     }
 
-    if(backup_list.length > 0) {
+    if (backup_list.length > 0) {
         await export_to_json_file(`backup_${carrier_name}`, backup_list, './backup_driver')
-    }}
+    }
+}
 
-const register_drivers = async (value) => {
-    console.log(`Calling API to register driver ${value.id}`)
-    axios.defaults.timeout = 5000;
+const register_drivers = async (carrier_name, drivers) => {
+    for (const driver of drivers) {
+        try {
+            if (Object.values(driver).every(x => x !== null)) {
+                console.log(`Calling API to register driver ${driver.id}`)
+                let req = await axios.post('https://driver-fiscal-data.melioffice.com/logistics-fiscal-data/MLM/drivers', driver, {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'x-api-scope': 'stage'
+                    }
+                })
 
-    if(!Object.values(value).every(x => x === null)){
-        let req = await axios.post('https://driver-fiscal-data.melioffice.com/logistics-fiscal-data/MLM/drivers', value, {
-            headers: {
-                'Content-Type': 'application/json',
-                'x-api-scope': 'stage'
+                console.log(`Driver ${req.data.id} successfully registered`)
+            } else {
+                console.log(`Unable to register the driver ${driver.id} because contains null information`)
             }
-        })
+        } catch (err) {
+            switch (err.response.status) {
+                case 403:
+                    console.log(err.response.data)
+                    break
+                case 400:
+                    console.log(err.response.data.message)
+                    break
+                default:
+                    throw err
+            }
+        }
     }
 }
 
@@ -121,7 +139,7 @@ const convert_sheet_to_json = (file) => {
 
         tempJsonData.forEach(value => {
             convertData.push({
-                id: value['driver_id'],
+                id: value['driver_id'].toString(),
                 carrier_type: value['Tipo de conductor'],
                 licenses_infos: [
                     {
@@ -207,7 +225,7 @@ const verify_drivers_without_rfc = async (carrier_name, drivers) => {
         }
     }
 
-    if(drivers_without_rfc.length > 0) {
+    if (drivers_without_rfc.length > 0) {
         console.log('Creating a file with drivers without rfc! send again an email requesting to fill in this information ')
         await export_to_json_file(`driver_without_rfc_${carrier_name}`, drivers_without_rfc, './drivers_without_rfc')
     }

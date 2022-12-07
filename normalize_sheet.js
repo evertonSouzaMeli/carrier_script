@@ -16,6 +16,8 @@ const init = async (carrier_name) => {
     await normalize_sheet(file, 'Vehículo ya registrados')
 
     await wb.xlsx.writeFile(`./Conductor y Vehiculo - ${carrier_name}_normalized.xlsx`)
+
+    console.log('END')
 }
 
 const normalize_sheet = async (file, tab) => {
