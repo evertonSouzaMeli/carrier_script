@@ -1,0 +1,46 @@
+[
+  {
+    "id": null,
+    "license_plate": "5310ZP",
+    "type": {
+      "description": "LARGE VAN"
+    },
+    "status": "ACTIVO",
+    "year": 2019,
+    "number_of_axles": 2,
+    "configuration_code": "VL"
+  },
+  {
+    "id": 253733,
+    "license_plate": "5311ZP",
+    "type": {
+      "description": "LARGE VAN"
+    },
+    "status": "ACTIVO",
+    "year": 2018,
+    "number_of_axles": 2,
+    "configuration_code": "VL"
+  },
+  {
+    "id": 331197,
+    "license_plate": "LC29843",
+    "type": {
+      "description": "LARGE VAN"
+    },
+    "status": "ACTIVO",
+    "year": 2019,
+    "number_of_axles": 2,
+    "configuration_code": "VL"
+  },
+  {
+    "id": 330771,
+    "license_plate": "LD60675",
+    "type": {
+      "description": "LARGE VAN"
+    },
+    "status": "ACTIVO",
+    "year": 2019,
+    "number_of_axles": 2,
+    "configuration_code": "VL"
+  }
+]
