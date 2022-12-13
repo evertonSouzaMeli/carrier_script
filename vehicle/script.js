@@ -42,7 +42,7 @@ const backup = async (carrier_name) => {
     let backup_list = get_all_vehicles(carrier_name)
 
     if (backup_list.length > 0) {
-        await export_to_json_file(`backup_${carrier_name}`, backup_list, './backup_driver')
+        await export_to_json_file(`backup_${carrier_name}`, backup_list, './backup_vehicle')
     }
 }
 
