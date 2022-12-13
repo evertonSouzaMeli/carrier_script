@@ -6,9 +6,9 @@ const path = require('path');
 
 const root_path = '/Users/evertosilva/Desktop/carrier_script/';
 
-const scope = 'release'
+const scope = 'prod'
 
-const token = "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ0ZDlhMGQzLWM4YTItNDY0Yi1hMGE5LWU3MWM2OTA0MjExNiIsInR5cCI6IkpXVCJ9.eyJhZGRpdGlvbmFsX2luZm8iOnsiZW1haWwiOiJldmVydG9uLnZzaWx2YUBtZXJjYWRvbGl2cmUuY29tIiwiZnVsbF9uYW1lIjoiRXZlcnRvbiBEZSBTb3V6YSBTaWx2YSIsInVzZXJuYW1lIjoiZXZlcnRvc2lsdmEifSwiZXhwIjoxNjcwOTY1MDI2LCJpYXQiOjE2NzA5MzI2MjYsImlkZW50aXR5IjoibXJuOnNlZ2luZjphZDp1c2VyL2V2ZXJ0b3NpbHZhIiwiaXNzIjoiZnVyeV90aWdlciIsInN1YiI6ImV2ZXJ0b3NpbHZhIn0.j93lU2fbqcBY_vsAXiiB_nQALimxaoFAzRnha4fpWv4pQ1U2Yv1AbKZ77Kab6jL7o0ugCGQDYCQ8mqqApSzJ9dpK82CNW5jLFtjmIPJcicMTrj5vrwti3YSO0zpqVpXVbNnd2teINy1EBM9-Zqxlulhrv6UV1x5bEwnMFQFXF2-idBwsgn-y6cBR4YSvTo-Qyiqr0rcm9_i5N049-54XbB0zIzjtXP-c7phCKgRUihGPEl46u0vUhyGyYRAm_IaxUbJvFU4nZ1am20VuJnnKLezCYo4ZD8QsfK6ymrBr7opCNDEy0MGGfk2sw4WRYpfHPuYpJGK4Cvc5FEI5jwVAbQ"
+const token = "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ0ZDlhMGQzLWM4YTItNDY0Yi1hMGE5LWU3MWM2OTA0MjExNiIsInR5cCI6IkpXVCJ9.eyJhZGRpdGlvbmFsX2luZm8iOnsiZW1haWwiOiJldmVydG9uLnZzaWx2YUBtZXJjYWRvbGl2cmUuY29tIiwiZnVsbF9uYW1lIjoiRXZlcnRvbiBEZSBTb3V6YSBTaWx2YSIsInVzZXJuYW1lIjoiZXZlcnRvc2lsdmEifSwiZXhwIjoxNjcwOTk4NzgyLCJpYXQiOjE2NzA5NjYzODIsImlkZW50aXR5IjoibXJuOnNlZ2luZjphZDp1c2VyL2V2ZXJ0b3NpbHZhIiwiaXNzIjoiZnVyeV90aWdlciIsInN1YiI6ImV2ZXJ0b3NpbHZhIn0.b6ISo36jioZeTOAFNznjdAAvvv-igikZ-zpVCLS9DlIKYMPw3nd5RI3njEb59ykOVDiXsnDBh1naljYt5-albCMi75Ienh8VQ_OJGyvAKKqgbcmSBJQSNQQmPN7C-nxlgwrURoXWjvgX6yC950kmWAJWfs9g4ReJ-HghaD-keUZC7_21RhWmr12h4qnPqnmKb1h4QmUBVGKw_-gDrxMRzMZa4-UbhJPDHJFWPbryv_KFWXIBk75wYUO6IBKvpkgKNF_1SxbdnmudU7ABAZ13EUImC8HYrYmKFGoIQTChCsSeksk9_wob1MbVNO7ANNiPZ_HqrufZvvYrKlntKxpCTQ"
 
 const init = async (carrier_name) => {
     carrier_name = carrier_name.toLowerCase()
@@ -23,6 +23,8 @@ const init = async (carrier_name) => {
 
     let vehicles = await parse_data_to_javascript_object('./converted_sheet', latest_file)
 
+    await backup(carrier_name)
+
     await register_vehicles(vehicles)
 }
 
@@ -35,8 +37,13 @@ const parse_data_to_javascript_object = async (folder_path, file_name) => {
     }
 }
 
-const backup = (carrier_name, vehicles) => {
-    console.log('Hello')
+const backup = async (carrier_name) => {
+    console.log('Creating backup file for vehicles...')
+    let backup_list = get_all_vehicles(carrier_name)
+
+    if (backup_list.length > 0) {
+        await export_to_json_file(`backup_${carrier_name}`, backup_list, './backup_driver')
+    }
 }
 
 
@@ -213,11 +220,8 @@ const register_vehicles = async (vehicles) => {
     for (const vehicle of vehicles) {
         try {
             if (Object.values(vehicle).every(x => x !== null)) {
-                await axios.put(`https://stage_mback-warning-message-agent.furyapps.io/update_vehicles/${vehicle.id}`, vehicle, {
-                    params: {
-                        "scope": scope
-                    },
-                    headers: {
+                await axios.put(`https://test-production_mback-warning-message-agent.furyapps.io/update_vehicles/${vehicle.id}`, vehicle, {
+                        headers: {
                         'x-tiger-token': 'Bearer '.concat(token),
                         'Content-Type': 'application/json',
                     }
