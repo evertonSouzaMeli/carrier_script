@@ -6,6 +6,9 @@ const path = require('path');
 
 const root_path = '/Users/evertosilva/Desktop/carrier_script/';
 
+const scope = 'release'
+
+const token = "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ0ZDlhMGQzLWM4YTItNDY0Yi1hMGE5LWU3MWM2OTA0MjExNiIsInR5cCI6IkpXVCJ9.eyJhZGRpdGlvbmFsX2luZm8iOnsiZW1haWwiOiJldmVydG9uLnZzaWx2YUBtZXJjYWRvbGl2cmUuY29tIiwiZnVsbF9uYW1lIjoiRXZlcnRvbiBEZSBTb3V6YSBTaWx2YSIsInVzZXJuYW1lIjoiZXZlcnRvc2lsdmEifSwiZXhwIjoxNjcwOTY1MDI2LCJpYXQiOjE2NzA5MzI2MjYsImlkZW50aXR5IjoibXJuOnNlZ2luZjphZDp1c2VyL2V2ZXJ0b3NpbHZhIiwiaXNzIjoiZnVyeV90aWdlciIsInN1YiI6ImV2ZXJ0b3NpbHZhIn0.j93lU2fbqcBY_vsAXiiB_nQALimxaoFAzRnha4fpWv4pQ1U2Yv1AbKZ77Kab6jL7o0ugCGQDYCQ8mqqApSzJ9dpK82CNW5jLFtjmIPJcicMTrj5vrwti3YSO0zpqVpXVbNnd2teINy1EBM9-Zqxlulhrv6UV1x5bEwnMFQFXF2-idBwsgn-y6cBR4YSvTo-Qyiqr0rcm9_i5N049-54XbB0zIzjtXP-c7phCKgRUihGPEl46u0vUhyGyYRAm_IaxUbJvFU4nZ1am20VuJnnKLezCYo4ZD8QsfK6ymrBr7opCNDEy0MGGfk2sw4WRYpfHPuYpJGK4Cvc5FEI5jwVAbQ"
 
 const init = async (carrier_name) => {
     carrier_name = carrier_name.toLowerCase()
@@ -31,6 +34,11 @@ const parse_data_to_javascript_object = async (folder_path, file_name) => {
         console.log(err)
     }
 }
+
+const backup = (carrier_name, vehicles) => {
+    console.log('Hello')
+}
+
 
 const find_by_name_and_extension = async (dir, name, ext) => {
     try {
@@ -112,7 +120,8 @@ async function get_all_vehicles(carrier_name) {
 
         let req = await axios.get('https://internal-api.mercadolibre.com/logistics/vehicles/search', {
             params: {
-                'carrier_id': carrier_id
+                'carrier_id': carrier_id,
+                'scope': scope
             }
         })
 
@@ -142,11 +151,11 @@ const convert_sheet_to_json = async (carrier_name, file) => {
                 license_plate: value['Placa de Vehiculo'],
                 type: {
                     description: value['Tipo de vehículo']
+
                 },
-                status: value['Status'],
                 year: value['Año de Vehículo'],
                 number_of_axles: number_axles_of_the_vehicle(value['Código de configuración del vehículo']),
-                configuration_code: value['Código de configuración del vehículo']
+                invoice_code_configuration: value['Código de configuración del vehículo']
             })
         })
 
@@ -203,15 +212,33 @@ const sleep = (time) => {
 const register_vehicles = async (vehicles) => {
     for (const vehicle of vehicles) {
         try {
-            let req = await axios.put(`http://localhost:8080/update_vehicles/${vehicle.id}?`, {
-                header: {
-                    'Content-Type':'application/json'
-                }
-            })
+            if (Object.values(vehicle).every(x => x !== null)) {
+                await axios.put(`https://stage_mback-warning-message-agent.furyapps.io/update_vehicles/${vehicle.id}`, vehicle, {
+                    params: {
+                        "scope": scope
+                    },
+                    headers: {
+                        'x-tiger-token': 'Bearer '.concat(token),
+                        'Content-Type': 'application/json',
+                    }
+                })
 
-            return req.data
+                console.log(`Vehicle ${vehicle.id} successfully updated`)
+            }
         } catch (err) {
-            throw err
+            switch (err.response.status) {
+                case 403:
+                    console.log(err.response.data)
+                    break
+                case 400:
+                    console.log(err.response.data.message)
+                    break
+                case 404:
+                    console.log(err.response.data.message)
+                    break
+                default:
+                    throw err
+            }
         }
     }
 }
