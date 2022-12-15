@@ -1,10 +1,9 @@
-const moment = require("moment");
 const fs = require('fs/promises');
 const path = require('path');
 const xlsx = require("xlsx");
 const Excel = require('exceljs');
 
-const root_path = '/Users/evertosilva/Desktop/carrier_script/';
+const root_path = 'Colocar o diretorio do projeto';
 
 const wb = new Excel.Workbook();
 
@@ -16,8 +15,6 @@ const init = async (carrier_name) => {
     await normalize_sheet(file, 'Vehículo ya registrados')
 
     await wb.xlsx.writeFile(`./Conductor y Vehiculo - ${carrier_name}_normalized.xlsx`)
-
-    console.log('END')
 }
 
 const normalize_sheet = async (file, tab) => {
@@ -29,7 +26,7 @@ const normalize_sheet = async (file, tab) => {
 
     let tempJsonData = xlsx.utils.sheet_to_json(sheet.Sheets[tab], {defval: null});
 
-    tempJsonData.forEach(function (value, index) {
+    tempJsonData.forEach(function (value) {
         if (tab === 'Conductores ya registrados') {
             column_1.push(value['__EMPTY'])
             column_2.push(value['__EMPTY_3'])
@@ -102,5 +99,4 @@ const find_by_name_and_extension = async (dir, name, ext) => {
     }
 }
 
-
-init('sahuayo')
+init('jobbiton').then(() => console.log('END'))

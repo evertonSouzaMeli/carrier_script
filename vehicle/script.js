@@ -4,11 +4,12 @@ const axios = require("axios");
 const fs = require('fs/promises');
 const path = require('path');
 
-const root_path = '/Users/evertosilva/Desktop/carrier_script/';
+const root_path = 'Colocar o diretorio do projeto';
 
-const scope = 'prod'
+/** release ou prod **/
+const scope = 'release'
 
-const token = "COLOCAR FURY TOKEN"
+const token = "FURY_TOKEN"
 
 const init = async (carrier_name) => {
     carrier_name = carrier_name.toLowerCase()
@@ -25,7 +26,7 @@ const init = async (carrier_name) => {
 
     await backup(carrier_name)
 
-    await register_vehicles(vehicles)
+    await register_vehicles(carrier_name, vehicles)
 }
 
 const parse_data_to_javascript_object = async (folder_path, file_name) => {
@@ -33,13 +34,13 @@ const parse_data_to_javascript_object = async (folder_path, file_name) => {
         console.log(`Parsing ${file_name} to Javascript Object...`)
         return JSON.parse((await fs.readFile(`${folder_path}/${file_name}`, null)).toString());
     } catch (err) {
-        console.log(err)
+        throw err
     }
 }
 
 const backup = async (carrier_name) => {
     console.log('Creating backup file for vehicles...')
-    let backup_list = get_all_vehicles(carrier_name)
+    let backup_list = await get_all_vehicles(carrier_name)
 
     if (backup_list.length > 0) {
         await export_to_json_file(`backup_${carrier_name}`, backup_list, './backup_vehicle')
@@ -129,6 +130,9 @@ async function get_all_vehicles(carrier_name) {
             params: {
                 'carrier_id': carrier_id,
                 'scope': scope
+            },
+            headers: {
+                'Accept-Encoding': 'application/json'
             }
         })
 
@@ -161,8 +165,7 @@ const convert_sheet_to_json = async (carrier_name, file) => {
 
                 },
                 year: value['Año de Vehículo'],
-                number_of_axles: number_axles_of_the_vehicle(value['Código de configuración del vehículo']),
-                invoice_code_configuration: value['Código de configuración del vehículo']
+                invoice_code_configuration: value["Código de configuración del vehículo"]
             })
         })
 
@@ -180,54 +183,70 @@ const export_to_json_file = async (name, content, path) => {
     })
 }
 
-const number_axles_of_the_vehicle = (configuration_code) => {
-    if (configuration_code)
-        configuration_code = configuration_code.toLocaleLowerCase()
-
-    if (configuration_code === 'vl' || configuration_code === 'c2')
-        return 2
-
-    else if (configuration_code === 'c3' || configuration_code === 't2s1')
-        return 3
-
-    else if (configuration_code === 'c2r2' || configuration_code === 't2s2' || configuration_code === 't3s1')
-        return 4
-
-    else if (configuration_code === 'c3r2' || configuration_code === 'c2r3' || configuration_code === 't2s3' || configuration_code === 't3s2' || configuration_code === 't2s1r2')
-        return 5
-
-    else if (configuration_code === 'c3r3' || configuration_code === 't3s3' || configuration_code === 't2s2r2' || configuration_code === 't2s1r3' || configuration_code === 't3s1r2' || configuration_code === 't2s2s2')
-        return 6
-
-    else if (configuration_code === 't3s1r3' || configuration_code === 't3s2r2' || configuration_code === 't3s2s2')
-        return 7
-
-    else if (configuration_code === 't3s2r3' || configuration_code === 't3s3s2')
-        return 8
-
-    else if (configuration_code === 't3s2r4')
-        return 9
-
-    else
-        return null;
-}
-
 const sleep = (time) => {
     return new Promise(resolve => setTimeout(resolve, time));
 }
 
-const register_vehicles = async (vehicles) => {
+function getScope(scope) {
+    switch (scope) {
+        case 'prod':
+            return 'test-production'
+        case 'release':
+            return 'stage'
+        default:
+            throw Error();
+    }
+}
+
+async function verify_if_vehicle_updated(carrier_name, registered_vehicles) {
+    let messages = []
+    for (const vehicle of registered_vehicles) {
+        console.log(`Checking if the vehicle ${vehicle.id} has been updated`)
+        let req = await axios.get(`https://internal-api.mercadolibre.com/logistics/vehicles/${vehicle.id}`, {
+            params: {
+                'scope': scope
+            },
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+
+        let res = req.data
+
+        let updated = (vehicle.invoice_code_configuration === res.invoice_code_configuration) && (vehicle.year === res.year)
+
+        let message = `Vehicle ${vehicle.id} `.concat(updated ? `was updated successfully` : `has not been updated`)
+
+        messages.push(message)
+
+        console.log(message)
+
+        await sleep(3000)
+    }
+
+    await fs.writeFile(`./result_updated/${carrier_name.replaceAll(' ', '_')}_${moment().format('DD_MM_yyyy_HH:mm:ss')}.txt`, JSON.stringify(messages, null, 2), function (err) {
+        if (err) throw err;
+    })
+}
+
+const register_vehicles = async (carrier_name, vehicles) => {
+    let registered_vehicles = []
+
     for (const vehicle of vehicles) {
         try {
             if (Object.values(vehicle).every(x => x !== null)) {
-                await axios.put(`https://test-production_mback-warning-message-agent.furyapps.io/update_vehicles/${vehicle.id}`, vehicle, {
-                        headers: {
+                let url = `https://${getScope(scope)}_mback-warning-message-agent.furyapps.io/update_vehicles/${vehicle.id}`;
+
+                let req = await axios.put(url, vehicle, {
+                    headers: {
                         'x-tiger-token': 'Bearer '.concat(token),
                         'Content-Type': 'application/json',
                     }
                 })
 
-                console.log(`Vehicle ${vehicle.id} successfully updated`)
+                let update_vehicle = req.data;
+
+                registered_vehicles.push(update_vehicle)
             }
         } catch (err) {
             switch (err.response.status) {
@@ -245,7 +264,10 @@ const register_vehicles = async (vehicles) => {
             }
         }
     }
+
+    if (registered_vehicles.length > 0) {
+        await verify_if_vehicle_updated(carrier_name, registered_vehicles)
+    }
 }
 
-
-init('soltrej')
+init('soltrej').then(() => console.log('END'))
