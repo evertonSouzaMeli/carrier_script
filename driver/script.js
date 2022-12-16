@@ -4,7 +4,7 @@ const axios = require("axios");
 const fs = require('fs/promises');
 const path = require('path');
 
-const root_path = 'Colocar o diretorio do projeto';
+const root_path = 'Colocar o diretorio ROOT';
 
 const init = async (carrier_name) => {
     carrier_name = carrier_name.toLowerCase()
@@ -55,7 +55,46 @@ const generate_divergent_json = async (carrier_name, drivers) => {
     }
 }
 
+const verify_if_driver_registered = async (carrier_name, registered_drivers, unregistered_drivers) => {
+    let messages = []
+    for (const driver of registered_drivers) {
+        console.log(`Checking if the driver ${driver.id} has been updated`)
+        let req = await axios.get(`'https://driver-fiscal-data.melioffice.com/logistics-fiscal-data/MLM/drivers/${driver.id}`, {
+            params: {
+                'scope': 'release'
+            },
+            headers: {
+                'x-api-scope': 'stage',
+                'Content-Type': 'application/json'
+            }
+        })
+
+        let res = req.data
+
+        let updated = (driver.invoice_code_configuration === res.invoice_code_configuration) && (driver.year === res.year)
+
+        let message = `Driver ${driver.id} `.concat(updated ? `was registered successfully` : `has not been registered`)
+
+        messages.push(message)
+
+        console.log(message)
+
+        await sleep(3000)
+    }
+
+    for(const driver of unregistered_drivers){
+        messages.push(`Driver ${driver.id} has not been registered`)
+    }
+
+    await fs.writeFile(`./result_registered/${carrier_name.replaceAll(' ', '_')}_${moment().format('DD_MM_yyyy_HH:mm:ss')}.txt`, JSON.stringify(messages, null, 2), function (err) {
+        if (err) throw err;
+    })
+}
+
 const register_drivers = async (carrier_name, drivers) => {
+    let registered_drivers = []
+    let unregistered_drivers = []
+
     for (const driver of drivers) {
 
         delete driver.rfc
@@ -71,10 +110,12 @@ const register_drivers = async (carrier_name, drivers) => {
                 })
 
                 console.log(`Driver ${req.data.id} successfully registered`)
+                registered_drivers.push(driver)
 
                 await sleep(3000)
             } else {
                 console.log(`Unable to register the driver ${driver.id} because contains null information`)
+                unregistered_drivers.push(driver)
             }
         } catch (err) {
             switch (err.response.status) {
@@ -85,9 +126,14 @@ const register_drivers = async (carrier_name, drivers) => {
                     console.log(err.response.data.message)
                     break
                 default:
-                    throw err
+                    console.log(err)
+                    break;
             }
         }
+    }
+
+    if (registered_drivers.length > 0 || unregistered_drivers.length > 0) {
+        await verify_if_driver_registered(carrier_name, registered_drivers, unregistered_drivers)
     }
 }
 
@@ -182,6 +228,8 @@ const verify_drivers_rfc = async (carrier_name, drivers) => {
                 }
             })
 
+            console.log('Success to find driver...')
+
             let res = req.data
 
             if(res['other_identifications'])
@@ -197,7 +245,8 @@ const verify_drivers_rfc = async (carrier_name, drivers) => {
             await sleep(3000)
 
         } catch (err) {
-            throw err
+            console.log(err)
+            break
         }
     }
 
@@ -262,4 +311,4 @@ const get_carrier_id_by_name = (carrier_name) => {
         return null
 }
 
-init('jobbiton').then(() => console.log('END'))
+init('').then(() => console.log('END'))

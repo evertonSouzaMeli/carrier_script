@@ -4,7 +4,7 @@ const axios = require("axios");
 const fs = require('fs/promises');
 const path = require('path');
 
-const root_path = 'Colocar o diretorio do projeto';
+const root_path = 'Colocar o diretorio ROOT';
 
 /** release ou prod **/
 const scope = 'release'
@@ -198,7 +198,7 @@ function getScope(scope) {
     }
 }
 
-async function verify_if_vehicle_updated(carrier_name, registered_vehicles) {
+async function verify_if_vehicle_updated(carrier_name, registered_vehicles, unregistered_vehicles) {
     let messages = []
     for (const vehicle of registered_vehicles) {
         console.log(`Checking if the vehicle ${vehicle.id} has been updated`)
@@ -224,6 +224,10 @@ async function verify_if_vehicle_updated(carrier_name, registered_vehicles) {
         await sleep(3000)
     }
 
+    for(const vehicle of unregistered_vehicles){
+        messages.push(`Vehicle ${vehicle.id} has not been updated`)
+    }
+
     await fs.writeFile(`./result_updated/${carrier_name.replaceAll(' ', '_')}_${moment().format('DD_MM_yyyy_HH:mm:ss')}.txt`, JSON.stringify(messages, null, 2), function (err) {
         if (err) throw err;
     })
@@ -231,6 +235,7 @@ async function verify_if_vehicle_updated(carrier_name, registered_vehicles) {
 
 const register_vehicles = async (carrier_name, vehicles) => {
     let registered_vehicles = []
+    let unregistered_vehicles = []
 
     for (const vehicle of vehicles) {
         try {
@@ -247,6 +252,8 @@ const register_vehicles = async (carrier_name, vehicles) => {
                 let update_vehicle = req.data;
 
                 registered_vehicles.push(update_vehicle)
+            }else {
+                unregistered_vehicles.push(vehicles)
             }
         } catch (err) {
             switch (err.response.status) {
@@ -260,14 +267,15 @@ const register_vehicles = async (carrier_name, vehicles) => {
                     console.log(err.response.data.message)
                     break
                 default:
-                    throw err
+                    console.log(err)
+                    break;
             }
         }
     }
 
-    if (registered_vehicles.length > 0) {
-        await verify_if_vehicle_updated(carrier_name, registered_vehicles)
+    if (registered_vehicles.length > 0 || unregistered_vehicles.length > 0) {
+        await verify_if_vehicle_updated(carrier_name, registered_vehicles, unregistered_vehicles)
     }
 }
 
-init('soltrej').then(() => console.log('END'))
+init('').then(() => console.log('END'))

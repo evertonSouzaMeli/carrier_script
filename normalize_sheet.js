@@ -3,7 +3,7 @@ const path = require('path');
 const xlsx = require("xlsx");
 const Excel = require('exceljs');
 
-const root_path = 'Colocar o diretorio do projeto';
+const root_path = 'Colocar o diretorio ROOT';
 
 const wb = new Excel.Workbook();
 
@@ -99,4 +99,4 @@ const find_by_name_and_extension = async (dir, name, ext) => {
     }
 }
 
-init('jobbiton').then(() => console.log('END'))
+init('').then(() => console.log('END'))
