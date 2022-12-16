@@ -60,6 +60,9 @@ Aqui é onde vamos **cadastrar** os motoristas
 
 :warning: VERIFIQUE SE A **VPN** ESTÁ HABILITADA :warning:
 
+:warning: SE AS PASTAS NÃO EXISTIREM, CRIE MANUALMENTE COMO NO VIDEO :warning:
+
+
 ##### :file_folder: ```converted_sheet```
 
 Aqui ficarão os arquivos ```.json``` resultantes da conversão da planilha ```.xlsx```
@@ -75,12 +78,18 @@ Aqui ficarão os arquivos onde estarão drivers que estão com a RFC (da planilh
 ##### :file_folder: ```drivers_without_rfc```
 Aqui ficarão os arquivos onde estarão drivers que estão sem a RFC
 
+##### :file_folder: ```result_registered```
+
+Aqui ficarão os arquivos ```.txt``` resultantes das requisições de atualização das informações dos motoristas.
+
 https://user-images.githubusercontent.com/96149487/208119532-d56cf9c2-b956-479f-b015-dfbb86e08d52.mp4
 
 ## :truck: FLUXO VEHICLE
 Aqui é onde vamos **atualizar** os veiculos
 
 :warning: VERIFIQUE SE A **VPN** ESTÁ HABILITADA :warning:
+
+:warning: SE AS PASTAS NÃO EXISTIREM, CRIE MANUALMENTE COMO NO VIDEO :warning:
 
 ##### :file_folder: ```converted_sheet```
 
