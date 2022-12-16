@@ -99,8 +99,8 @@ https://user-images.githubusercontent.com/96149487/208126222-0e7e8c29-9ffe-48bb-
 
 #### CONTATO
 | everton.vsilva@mercadolivre.com | ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) |
-|----------|:-------------:|
-| @Everton De Souza Silva | ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) |
+|---------------------------------|:--------------------------------------------------------------------------------------------------:|
+| @Everton De Souza Silva         | ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) |
 
 
 
