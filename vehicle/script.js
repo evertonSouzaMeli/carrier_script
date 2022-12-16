@@ -225,7 +225,7 @@ async function verify_if_vehicle_updated(carrier_name, registered_vehicles, unre
     }
 
     for(const vehicle of unregistered_vehicles){
-        messages.push(`Vehicle ${vehicle.id} has not been updated`)
+        messages.push(`Vehicle ${vehicle.id} has not been updated, cause: ${vehicle['cause']}`)
     }
 
     await fs.writeFile(`./result_updated/${carrier_name.replaceAll(' ', '_')}_${moment().format('DD_MM_yyyy_HH:mm:ss')}.txt`, JSON.stringify(messages, null, 2), function (err) {
@@ -236,6 +236,7 @@ async function verify_if_vehicle_updated(carrier_name, registered_vehicles, unre
 const register_vehicles = async (carrier_name, vehicles) => {
     let registered_vehicles = []
     let unregistered_vehicles = []
+    let cause_error;
 
     for (const vehicle of vehicles) {
         try {
@@ -251,22 +252,33 @@ const register_vehicles = async (carrier_name, vehicles) => {
 
                 let update_vehicle = req.data;
 
+                console.log(`Vehicle ${req.data.id} successfully updated`)
                 registered_vehicles.push(update_vehicle)
             }else {
-                unregistered_vehicles.push(vehicles)
+                cause_error = 'NULL_INFORMATION'
+                console.log(`Unable to update the vehicle ${vehicle.id} because contains null information`)
+                unregistered_vehicles.push({ id: vehicle.id, cause: cause_error})
             }
         } catch (err) {
             switch (err.response.status) {
                 case 403:
+                    cause_error = "FORBIDDEN"
+                    unregistered_vehicles.push({ id: vehicle.id, cause: cause_error})
                     console.log(err.response.data)
                     break
                 case 400:
+                    cause_error = "BAD_REQUEST"
+                    unregistered_vehicles.push({ id: vehicle.id, cause: cause_error})
                     console.log(err.response.data.message)
                     break
                 case 404:
-                    console.log(err.response.data.message)
+                    cause_error = "NOT_FOUND"
+                    unregistered_vehicles.push({ id: vehicle.id, cause: cause_error})
+                    console.log(err.response.data)
                     break
                 default:
+                    cause_error = 'CODE_EXCEPTION'
+                    unregistered_vehicles.push({ id: vehicle.id, cause: cause_error})
                     console.log(err)
                     break;
             }

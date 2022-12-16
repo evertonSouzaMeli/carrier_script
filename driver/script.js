@@ -60,9 +60,6 @@ const verify_if_driver_registered = async (carrier_name, registered_drivers, unr
     for (const driver of registered_drivers) {
         console.log(`Checking if the driver ${driver.id} has been updated`)
         let req = await axios.get(`'https://driver-fiscal-data.melioffice.com/logistics-fiscal-data/MLM/drivers/${driver.id}`, {
-            params: {
-                'scope': 'release'
-            },
             headers: {
                 'x-api-scope': 'stage',
                 'Content-Type': 'application/json'
@@ -83,7 +80,7 @@ const verify_if_driver_registered = async (carrier_name, registered_drivers, unr
     }
 
     for(const driver of unregistered_drivers){
-        messages.push(`Driver ${driver.id} has not been registered`)
+        messages.push(`Driver ${driver.id} has not been registered, cause: ${driver['cause']}`)
     }
 
     await fs.writeFile(`./result_registered/${carrier_name.replaceAll(' ', '_')}_${moment().format('DD_MM_yyyy_HH:mm:ss')}.txt`, JSON.stringify(messages, null, 2), function (err) {
@@ -94,6 +91,7 @@ const verify_if_driver_registered = async (carrier_name, registered_drivers, unr
 const register_drivers = async (carrier_name, drivers) => {
     let registered_drivers = []
     let unregistered_drivers = []
+    let cause_error
 
     for (const driver of drivers) {
 
@@ -110,22 +108,34 @@ const register_drivers = async (carrier_name, drivers) => {
                 })
 
                 console.log(`Driver ${req.data.id} successfully registered`)
-                registered_drivers.push(driver)
+                registered_drivers.push({id: driver.id})
 
                 await sleep(3000)
             } else {
+                cause_error = 'NULL_INFORMATION'
+                unregistered_drivers.push({ id: driver.id, cause: cause_error})
                 console.log(`Unable to register the driver ${driver.id} because contains null information`)
-                unregistered_drivers.push(driver)
             }
         } catch (err) {
             switch (err.response.status) {
                 case 403:
+                    cause_error = "FORBIDDEN"
+                    unregistered_drivers.push({ id: driver.id, cause: cause_error})
                     console.log(err.response.data)
                     break
                 case 400:
+                    cause_error = "BAD_REQUEST"
+                    unregistered_drivers.push({ id: driver.id, cause: cause_error})
                     console.log(err.response.data.message)
                     break
+                case 404:
+                    cause_error = "NOT_FOUND"
+                    unregistered_drivers.push({ id: driver.id, cause: cause_error})
+                    console.log(err.response.data)
+                    break
                 default:
+                    cause_error = 'CODE_EXCEPTION'
+                    unregistered_drivers.push({ id: driver.id, cause: cause_error})
                     console.log(err)
                     break;
             }
