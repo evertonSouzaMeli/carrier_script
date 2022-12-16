@@ -5,7 +5,7 @@ Esse script foi criado com o intuito de auxiliar o cadastradamento de motoristas
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
 
-## PRIMEIROS PASSOS
+## :gear: PRIMEIROS PASSOS
 Esse projeto foi desenvolvido utilizando ***NodeJS v16.17.0*** e ***Yarn v1.22.19***. Sendo assim é bom certificar-se que a sua versão atual seja equivalente ou superior.
 
 ##### Verificando as versões
@@ -39,7 +39,7 @@ Após isso clone normalmente o projeto e ***dentro da pasta root*** instale as d
 
 E com isso você pode utilizar com a IDE de sua preferencia
 
-## NORMALIZAÇÃO
+## :clipboard: NORMALIZAÇÃO
 Antes de começar a cadastrar motoristas e/ou veiculos é necessario fazer a *normalização* da planilha, ou seja, remover a estilização atual e torna-la no formato comum para facilitar a manipulação de dados
 
 1. Baixe a planilha em formato ```.xlsx```
@@ -55,10 +55,14 @@ https://user-images.githubusercontent.com/96149487/208109851-22669c99-69c2-4901-
 https://user-images.githubusercontent.com/96149487/208113089-e9a3b16d-ca48-424b-933e-16bb4ad3aa10.mp4
 
 
-## FLUXO DRIVER
+## :pilot: FLUXO DRIVER
 Aqui é onde vamos **cadastrar** os motoristas
 
 :warning: VERIFIQUE SE A **VPN** ESTÁ HABILITADA :warning:
+
+##### :file_folder: ```converted_sheet```
+
+Aqui ficarão os arquivos ```.json``` resultantes da conversão da planilha ```.xlsx```
 
 ##### :file_folder: ```divergent_driver```
 
@@ -73,6 +77,22 @@ Aqui ficarão os arquivos onde estarão drivers que estão sem a RFC
 
 https://user-images.githubusercontent.com/96149487/208119532-d56cf9c2-b956-479f-b015-dfbb86e08d52.mp4
 
+## :truck: FLUXO VEHICLE
+Aqui é onde vamos **atualizar** os veiculos
 
-## FLUXO VEHICLE
-Lorem Ipsum
+:warning: VERIFIQUE SE A **VPN** ESTÁ HABILITADA :warning:
+
+##### :file_folder: ```converted_sheet```
+
+Aqui ficarão os arquivos ```.json``` resultantes da conversão da planilha ```.xlsx```
+
+##### :file_folder: ```backup_vehicle```
+
+Aqui ficarão os arquivos resultantes dos veiculos previamente cadastrados, de forma a podermos restaurar a informação em caso de erros
+
+##### :file_folder: ```result_updated```
+
+Aqui ficarão os arquivos ```.txt``` resultantes da atualização das informações dos veiculos atualizados com sucesso.
+
+https://user-images.githubusercontent.com/96149487/208126222-0e7e8c29-9ffe-48bb-898a-75ee2f48d870.mp4
+
