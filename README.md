@@ -96,3 +96,12 @@ Aqui ficarão os arquivos ```.txt``` resultantes da atualização das informaç�
 
 https://user-images.githubusercontent.com/96149487/208126222-0e7e8c29-9ffe-48bb-898a-75ee2f48d870.mp4
 
+
+#### CONTATO
+| everton.vsilva@mercadolivre.com | ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) |
+|----------|:-------------:|
+| @Everton De Souza Silva | ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) |
+
+
+
+
