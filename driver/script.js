@@ -59,7 +59,7 @@ const verify_if_driver_registered = async (carrier_name, registered_drivers, unr
     let messages = []
     for (const driver of registered_drivers) {
         console.log(`Checking if the driver ${driver.id} has been updated`)
-        let req = await axios.get(`'https://driver-fiscal-data.melioffice.com/logistics-fiscal-data/MLM/drivers/${driver.id}`, {
+        let req = await axios.get(`https://driver-fiscal-data.melioffice.com/logistics-fiscal-data/MLM/drivers/${driver.id}`, {
             headers: {
                 'x-api-scope': 'stage',
                 'Content-Type': 'application/json'
@@ -68,7 +68,7 @@ const verify_if_driver_registered = async (carrier_name, registered_drivers, unr
 
         let res = req.data
 
-        let updated = (driver.invoice_code_configuration === res.invoice_code_configuration) && (driver.year === res.year)
+        let updated = driver === res
 
         let message = `Driver ${driver.id} `.concat(updated ? `was registered successfully` : `has not been registered`)
 
