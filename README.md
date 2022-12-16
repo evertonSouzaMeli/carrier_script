@@ -42,7 +42,7 @@ E com isso você pode utilizar com a IDE de sua preferencia
 ## NORMALIZAÇÃO
 Antes de começar a cadastrar motoristas e/ou veiculos é necessario fazer a *normalização* da planilha, ou seja, remover a estilização atual e torna-la no formato comum para facilitar a manipulação de dados
 
-1. Baixe a planilha em formato *.xlsx*
+1. Baixe a planilha em formato ```.xlsx```
 
 https://user-images.githubusercontent.com/96149487/208107589-6141a0b2-ef96-4549-80c9-1626b831fd18.mp4
 
@@ -50,14 +50,29 @@ https://user-images.githubusercontent.com/96149487/208107589-6141a0b2-ef96-4549-
 
 https://user-images.githubusercontent.com/96149487/208109851-22669c99-69c2-4901-97e5-d93221621cef.mp4
 
-3. Com a planilha dentro do projeto descubra o diretorio atual, e depois insira o nome do carrier na função ```init()```, com isso execute o script
+3. Com a planilha dentro do projeto descubra o diretorio atual, e depois insira o nome do carrier na função ```init()``` com isso execute o script
 
 https://user-images.githubusercontent.com/96149487/208113089-e9a3b16d-ca48-424b-933e-16bb4ad3aa10.mp4
 
 
-
 ## FLUXO DRIVER
-Lorem ipsum
+Aqui é onde vamos **cadastrar** os motoristas
+
+:warning: VERIFIQUE SE A **VPN** ESTÁ HABILITADA :warning:
+
+##### :file_folder: ```divergent_driver```
+
+Aqui ficarão os arquivos onde estarão drivers que não foram adicionados na planilha que enviamos para o carrier preencher
+
+##### :file_folder: ```drivers_with_divergent_rfc```
+
+Aqui ficarão os arquivos onde estarão drivers que estão com a RFC (da planilha) diferente da base
+
+##### :file_folder: ```drivers_without_rfc```
+Aqui ficarão os arquivos onde estarão drivers que estão sem a RFC
+
+https://user-images.githubusercontent.com/96149487/208119532-d56cf9c2-b956-479f-b015-dfbb86e08d52.mp4
+
 
 ## FLUXO VEHICLE
 Lorem Ipsum
