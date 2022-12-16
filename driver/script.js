@@ -228,7 +228,7 @@ const verify_drivers_rfc = async (carrier_name, drivers) => {
                 }
             })
 
-            console.log('Success to find driver...')
+            console.log(`Success to find driver ${driver.id}...`)
 
             let res = req.data
 
