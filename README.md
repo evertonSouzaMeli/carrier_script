@@ -92,7 +92,7 @@ Aqui ficarão os arquivos resultantes dos veiculos previamente cadastrados, de f
 
 ##### :file_folder: ```result_updated```
 
-Aqui ficarão os arquivos ```.txt``` resultantes da atualização das informações dos veiculos atualizados com sucesso.
+Aqui ficarão os arquivos ```.txt``` resultantes das requisições de atualização das informações dos veiculos.
 
 https://user-images.githubusercontent.com/96149487/208126222-0e7e8c29-9ffe-48bb-898a-75ee2f48d870.mp4
 
