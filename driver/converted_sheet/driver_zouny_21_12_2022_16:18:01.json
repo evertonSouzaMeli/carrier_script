@@ -1,0 +1,211 @@
+[
+  {
+    "id": "588932",
+    "carrier_type": "OPERADOR",
+    "rfc": "AIMA-940912-CT4",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": "DO2435530556"
+      }
+    ]
+  },
+  {
+    "id": "357342",
+    "carrier_type": "OPERADOR",
+    "rfc": "PUCC-930421-8G5",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": 24100442901
+      }
+    ]
+  },
+  {
+    "id": "624025",
+    "carrier_type": "OPERADOR",
+    "rfc": "OOCD-920122-GA2",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": "BV1763"
+      }
+    ]
+  },
+  {
+    "id": "371708",
+    "carrier_type": "OPERADOR",
+    "rfc": "ROMF690417TV4",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": "670000119919"
+      }
+    ]
+  },
+  {
+    "id": "698299",
+    "carrier_type": "OPERADOR",
+    "rfc": "FOGJ000720EA4",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": "JS2925584099"
+      }
+    ]
+  },
+  {
+    "id": "112810",
+    "carrier_type": "OPERADOR",
+    "rfc": "CAFC-891217-IE8",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": "17101221046"
+      }
+    ]
+  },
+  {
+    "id": "138399",
+    "carrier_type": "OPERADOR",
+    "rfc": "SEMJ-930211-3BA",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": 24420220
+      }
+    ]
+  },
+  {
+    "id": "715923",
+    "carrier_type": "OPERADOR",
+    "rfc": "PENJ910920C73",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": 24552408
+      }
+    ]
+  },
+  {
+    "id": "25124",
+    "carrier_type": "OPERADOR",
+    "rfc": "MAMM-930614-5A2",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": 24684107
+      }
+    ]
+  },
+  {
+    "id": "705073",
+    "carrier_type": "OPERADOR",
+    "rfc": "VICR871006E5A",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": 24220865
+      }
+    ]
+  },
+  {
+    "id": "680821",
+    "carrier_type": "OPERADOR",
+    "rfc": "RENA7512032I6",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": "AN1908212879"
+      }
+    ]
+  },
+  {
+    "id": "656423",
+    "carrier_type": "OPERADOR",
+    "rfc": "REHC900707J33",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": " CL2045563369"
+      }
+    ]
+  },
+  {
+    "id": "670345",
+    "carrier_type": "OPERADOR",
+    "rfc": "SEMH-980531-IV7",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": 24593157
+      }
+    ]
+  },
+  {
+    "id": "448772",
+    "carrier_type": "OPERADOR",
+    "rfc": "PUCF-980102-551",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": 24100538480
+      }
+    ]
+  },
+  {
+    "id": "624047",
+    "carrier_type": "OPERADOR",
+    "rfc": "GAGJ980624V63",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": 10000639395
+      }
+    ]
+  },
+  {
+    "id": "521507",
+    "carrier_type": "OPERADOR",
+    "rfc": "EACF-950130-C32",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": "JC915570672"
+      }
+    ]
+  },
+  {
+    "id": "180325",
+    "carrier_type": "OPERADOR",
+    "rfc": "GAGJ-000806-ED2",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": "R7N4CJ"
+      }
+    ]
+  },
+  {
+    "id": "664342",
+    "carrier_type": "OPERADOR",
+    "rfc": "LUGJ960928GP6",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": 24100300764
+      }
+    ]
+  },
+  {
+    "id": "125066",
+    "carrier_type": "OPERADOR",
+    "rfc": "GURR-730905-MU6",
+    "licenses_infos": [
+      {
+        "key": "LICENCIA",
+        "value": "R13387455"
+      }
+    ]
+  }
+]

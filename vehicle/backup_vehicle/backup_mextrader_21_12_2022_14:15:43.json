@@ -1,0 +1,5138 @@
+[
+  {
+    "id": 135809,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "30546",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620247435,
+    "last_updated": 1639208616
+  },
+  {
+    "id": 135941,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "30547",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620298422,
+    "last_updated": 1639208588
+  },
+  {
+    "id": 325601,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "43PJJ9",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1637335694,
+    "last_updated": 1639208831
+  },
+  {
+    "id": 343941,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "45PJJ9",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1638805994,
+    "last_updated": 1639208930
+  },
+  {
+    "id": 460472,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "47PKU7",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1648650973,
+    "last_updated": 1648650973
+  },
+  {
+    "id": 168200,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "53DDC4",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627661969,
+    "last_updated": 1639208850
+  },
+  {
+    "id": 168198,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "54DDC4",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627661937,
+    "last_updated": 1639208733
+  },
+  {
+    "id": 361311,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "61PJJ9",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1640198122,
+    "last_updated": 1652123944
+  },
+  {
+    "id": 744961,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "72PKW9",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1670513598,
+    "last_updated": 1670513598
+  },
+  {
+    "id": 705174,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "78PNL9",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1668094252,
+    "last_updated": 1668094252
+  },
+  {
+    "id": 439982,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "A05024",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1646576373,
+    "last_updated": 1646576373
+  },
+  {
+    "id": 410278,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "A05027",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1644071851,
+    "last_updated": 1644071851
+  },
+  {
+    "id": 407479,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "A05038",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1643898446,
+    "last_updated": 1643898446
+  },
+  {
+    "id": 439989,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "A05054",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1646577024,
+    "last_updated": 1646577024
+  },
+  {
+    "id": 440061,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "A05090",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1646588784,
+    "last_updated": 1646588784
+  },
+  {
+    "id": 137179,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "A13822",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620647445,
+    "last_updated": 1639208898
+  },
+  {
+    "id": 136811,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "A14017",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620497909,
+    "last_updated": 1649331140
+  },
+  {
+    "id": 136807,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "A14018",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620497765,
+    "last_updated": 1639208840
+  },
+  {
+    "id": 174344,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "A14688",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1628523350,
+    "last_updated": 1639208921
+  },
+  {
+    "id": 368123,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "C3870",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1640965340,
+    "last_updated": 1640965340
+  },
+  {
+    "id": 226133,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "EAF3619",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1631639327,
+    "last_updated": 1639208721
+  },
+  {
+    "id": 133238,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "G61AHH",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1619553535,
+    "last_updated": 1639394307
+  },
+  {
+    "id": 744964,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "GZP702F",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1670513629,
+    "last_updated": 1670513629
+  },
+  {
+    "id": 442630,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "H6305",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1646839564,
+    "last_updated": 1646839564
+  },
+  {
+    "id": 122498,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "H69ACN",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1616095697,
+    "last_updated": 1639208475
+  },
+  {
+    "id": 361149,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "HC5346D",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1640189132,
+    "last_updated": 1640189132
+  },
+  {
+    "id": 269988,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "HC5366D",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1634145619,
+    "last_updated": 1639208518
+  },
+  {
+    "id": 203501,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "HE86197",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1630347962,
+    "last_updated": 1630347962
+  },
+  {
+    "id": 393654,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "HFU385B",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1643134423,
+    "last_updated": 1643134423
+  },
+  {
+    "id": 435284,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "HFZ220D",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1646078669,
+    "last_updated": 1646078669
+  },
+  {
+    "id": 605172,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "I269848",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1660749124,
+    "last_updated": 1660749124
+  },
+  {
+    "id": 165519,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "JU68189",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627146201,
+    "last_updated": 1639208502
+  },
+  {
+    "id": 137177,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "JW33875",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620647211,
+    "last_updated": 1639208492
+  },
+  {
+    "id": 137180,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "JW73005",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620647573,
+    "last_updated": 1639208743
+  },
+  {
+    "id": 136804,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "JW74644",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620497574,
+    "last_updated": 1639208669
+  },
+  {
+    "id": 136801,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "JW74645",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620497524,
+    "last_updated": 1639208278
+  },
+  {
+    "id": 136794,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "JW82912",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620497217,
+    "last_updated": 1639208776
+  },
+  {
+    "id": 388949,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "JX47468",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1642779162,
+    "last_updated": 1651784422
+  },
+  {
+    "id": 380442,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "JX47469",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1642086180,
+    "last_updated": 1642086180
+  },
+  {
+    "id": 487685,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "JX60524",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1651153301,
+    "last_updated": 1651153301
+  },
+  {
+    "id": 411595,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "JX60776",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1644242131,
+    "last_updated": 1644242131
+  },
+  {
+    "id": 142611,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MT0993H",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1621953563,
+    "last_updated": 1639208949
+  },
+  {
+    "id": 213073,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MT3879B",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1630696530,
+    "last_updated": 1639208566
+  },
+  {
+    "id": 142610,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MU1574H",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1621953505,
+    "last_updated": 1639208466
+  },
+  {
+    "id": 229998,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MU7894Y",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1631898977,
+    "last_updated": 1639208969
+  },
+  {
+    "id": 136789,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MU8578A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620496946,
+    "last_updated": 1639208598
+  },
+  {
+    "id": 312411,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV0193F",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1636555460,
+    "last_updated": 1639208310
+  },
+  {
+    "id": 161557,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV2806H",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1626462052,
+    "last_updated": 1639208816
+  },
+  {
+    "id": 168606,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV3962E",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627740547,
+    "last_updated": 1639208767
+  },
+  {
+    "id": 170211,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV3964E",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1628006689,
+    "last_updated": 1639208262
+  },
+  {
+    "id": 115347,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV3986E",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1613604170,
+    "last_updated": 1639499685
+  },
+  {
+    "id": 201003,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV3987E",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1630256719,
+    "last_updated": 1639208434
+  },
+  {
+    "id": 274878,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV3988EE",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1634312656,
+    "last_updated": 1639208873
+  },
+  {
+    "id": 389234,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV4899J",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1642792947,
+    "last_updated": 1642792947
+  },
+  {
+    "id": 115341,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV5546H",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1613603736,
+    "last_updated": 1639499648
+  },
+  {
+    "id": 448988,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV8739E",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1647445284,
+    "last_updated": 1647445284
+  },
+  {
+    "id": 167129,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MV9094A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627479916,
+    "last_updated": 1639208636
+  },
+  {
+    "id": 642801,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX1909B",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1663951115,
+    "last_updated": 1663951115
+  },
+  {
+    "id": 694399,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX1912B",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1667490514,
+    "last_updated": 1667490514
+  },
+  {
+    "id": 153570,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX2690A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1624626684,
+    "last_updated": 1639208682
+  },
+  {
+    "id": 173545,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX2691A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1628362150,
+    "last_updated": 1639394278
+  },
+  {
+    "id": 168603,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX2692A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627739775,
+    "last_updated": 1639208787
+  },
+  {
+    "id": 153573,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX2693A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1624626740,
+    "last_updated": 1639209184
+  },
+  {
+    "id": 173546,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX2694A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1628362197,
+    "last_updated": 1639394179
+  },
+  {
+    "id": 155143,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX2794A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1625057724,
+    "last_updated": 1639208386
+  },
+  {
+    "id": 166586,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX3323A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627394144,
+    "last_updated": 1639208607
+  },
+  {
+    "id": 143237,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX3324A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1622066156,
+    "last_updated": 1639208805
+  },
+  {
+    "id": 274855,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX3325A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1634312067,
+    "last_updated": 1639208416
+  },
+  {
+    "id": 267112,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX7700A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1634052530,
+    "last_updated": 1639208991
+  },
+  {
+    "id": 218815,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX7702A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1631117283,
+    "last_updated": 1639208887
+  },
+  {
+    "id": 257904,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX7704A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1633537739,
+    "last_updated": 1639209074
+  },
+  {
+    "id": 142379,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX7706A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1621901833,
+    "last_updated": 1639208797
+  },
+  {
+    "id": 171052,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX8608A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1628085560,
+    "last_updated": 1639209021
+  },
+  {
+    "id": 167137,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MX8609A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627480618,
+    "last_updated": 1639209038
+  },
+  {
+    "id": 189132,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MY0236A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1629742660,
+    "last_updated": 1639209124
+  },
+  {
+    "id": 191613,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MY0237A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1629897437,
+    "last_updated": 1639209203
+  },
+  {
+    "id": 185474,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MY0238A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1629465629,
+    "last_updated": 1639208288
+  },
+  {
+    "id": 388848,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MY1869A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1642773425,
+    "last_updated": 1642773425
+  },
+  {
+    "id": 377700,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MY1870A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1641912315,
+    "last_updated": 1641912315
+  },
+  {
+    "id": 365365,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "MY1871A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1640701103,
+    "last_updated": 1640701103
+  },
+  {
+    "id": 662448,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NA0586B",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1665407991,
+    "last_updated": 1665407991
+  },
+  {
+    "id": 656195,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "ND4285A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1664905820,
+    "last_updated": 1664905820
+  },
+  {
+    "id": 656199,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "ND4387A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1664905862,
+    "last_updated": 1664905862
+  },
+  {
+    "id": 708665,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "ND4388A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1668281113,
+    "last_updated": 1668281113
+  },
+  {
+    "id": 616084,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NF6704A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1661711797,
+    "last_updated": 1661711797
+  },
+  {
+    "id": 608939,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NF6706A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1661102631,
+    "last_updated": 1661102631
+  },
+  {
+    "id": 642800,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NF6718A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1663951088,
+    "last_updated": 1663951088
+  },
+  {
+    "id": 506987,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NF6719A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1652462985,
+    "last_updated": 1652462985
+  },
+  {
+    "id": 678897,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NF6723A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1666551552,
+    "last_updated": 1666551552
+  },
+  {
+    "id": 630883,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NF6724A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1663096120,
+    "last_updated": 1663096120
+  },
+  {
+    "id": 708667,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NF6725A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1668281201,
+    "last_updated": 1668281201
+  },
+  {
+    "id": 703363,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NR6933B",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1668008382,
+    "last_updated": 1668008382
+  },
+  {
+    "id": 740226,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NR6934B",
+    "site_id": "MLM",
+    "vehicle_type_id": 8,
+    "type": {
+      "id": 8,
+      "description": "Large Van",
+      "capacity": 6,
+      "weight": 650,
+      "height": 150,
+      "width": 150,
+      "length": 300,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1670259166,
+    "last_updated": 1670259166
+  },
+  {
+    "id": 752063,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NR6935B",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1671051956,
+    "last_updated": 1671051956
+  },
+  {
+    "id": 710513,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NS7923A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1668446546,
+    "last_updated": 1668446546
+  },
+  {
+    "id": 708658,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NS7925A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1668280802,
+    "last_updated": 1669822100
+  },
+  {
+    "id": 754312,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "NS8816B",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1671215228,
+    "last_updated": 1671215228
+  },
+  {
+    "id": 329811,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "P1038",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1637680934,
+    "last_updated": 1639208645
+  },
+  {
+    "id": 168910,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PAF1R",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627829126,
+    "last_updated": 1639208354
+  },
+  {
+    "id": 188968,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PAF3619",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1629737661,
+    "last_updated": 1639208541
+  },
+  {
+    "id": 231174,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PEU2C",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1631992773,
+    "last_updated": 1639208222
+  },
+  {
+    "id": 228694,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PFC465T",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1631808222,
+    "last_updated": 1651784544
+  },
+  {
+    "id": 668703,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PFL647C",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1665772037,
+    "last_updated": 1665772037
+  },
+  {
+    "id": 238259,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PFR489W",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1632421837,
+    "last_updated": 1639208330
+  },
+  {
+    "id": 138941,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PFZ596F",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1621018869,
+    "last_updated": 1639208909
+  },
+  {
+    "id": 361147,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PGB1H",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1640188991,
+    "last_updated": 1640188991
+  },
+  {
+    "id": 202612,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PGD836J",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1630327871,
+    "last_updated": 1639209060
+  },
+  {
+    "id": 443396,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PGE436X",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1646884776,
+    "last_updated": 1646884776
+  },
+  {
+    "id": 337592,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PGE544K",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1638290682,
+    "last_updated": 1639208445
+  },
+  {
+    "id": 491761,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PGZ043B",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1651495370,
+    "last_updated": 1651495370
+  },
+  {
+    "id": 133243,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PHF361A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1619553745,
+    "last_updated": 1639394384
+  },
+  {
+    "id": 491768,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PHX043B",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1651495787,
+    "last_updated": 1651495787
+  },
+  {
+    "id": 611286,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PHX045B",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1661281718,
+    "last_updated": 1661281718
+  },
+  {
+    "id": 652913,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PHX046B",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1664656212,
+    "last_updated": 1664656212
+  },
+  {
+    "id": 638320,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PHX171B",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1663702845,
+    "last_updated": 1663702845
+  },
+  {
+    "id": 667019,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PJA194B",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1665680718,
+    "last_updated": 1665680718
+  },
+  {
+    "id": 708452,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PJN604B",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1668268813,
+    "last_updated": 1668268813
+  },
+  {
+    "id": 720271,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PJP945A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1669041384,
+    "last_updated": 1669041384
+  },
+  {
+    "id": 134812,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PJV066A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1620066227,
+    "last_updated": 1639208320
+  },
+  {
+    "id": 201611,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PJV067A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1630278133,
+    "last_updated": 1639209161
+  },
+  {
+    "id": 165517,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PJV068A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627146107,
+    "last_updated": 1639209049
+  },
+  {
+    "id": 711920,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PLE360C",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1668529664,
+    "last_updated": 1668529664
+  },
+  {
+    "id": 741640,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PLF647C",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1670338617,
+    "last_updated": 1670338617
+  },
+  {
+    "id": 687611,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PLF649C",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1666987594,
+    "last_updated": 1666987594
+  },
+  {
+    "id": 115348,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PLH253A",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1613604233,
+    "last_updated": 1639394253
+  },
+  {
+    "id": 166676,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PLH786A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627402500,
+    "last_updated": 1639208406
+  },
+  {
+    "id": 115346,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PLH800A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1613604113,
+    "last_updated": 1639208702
+  },
+  {
+    "id": 115349,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PLH801A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1613604295,
+    "last_updated": 1639208754
+  },
+  {
+    "id": 209641,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PLX524A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1630533863,
+    "last_updated": 1639208396
+  },
+  {
+    "id": 142377,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PMN210A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1621901792,
+    "last_updated": 1639208247
+  },
+  {
+    "id": 167300,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PNA179A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627499290,
+    "last_updated": 1639208376
+  },
+  {
+    "id": 656435,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PPM334B",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1664915981,
+    "last_updated": 1664915981
+  },
+  {
+    "id": 629349,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PPM335B",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1662991605,
+    "last_updated": 1662991605
+  },
+  {
+    "id": 719207,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PPM951B",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1668959368,
+    "last_updated": 1668959368
+  },
+  {
+    "id": 711923,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PPM952B",
+    "site_id": "MLM",
+    "vehicle_type_id": 3,
+    "type": {
+      "id": 3,
+      "description": "Small Van",
+      "capacity": 4,
+      "weight": 200,
+      "height": 130,
+      "width": 140,
+      "length": 230,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "weight_max": 25
+        },
+        "default_fuel_type": "diesel",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1668529741,
+    "last_updated": 1668529741
+  },
+  {
+    "id": 703367,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "PRD768A",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1668008485,
+    "last_updated": 1668008485
+  },
+  {
+    "id": 165006,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "RJ82668",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627044387,
+    "last_updated": 1639208343
+  },
+  {
+    "id": 339197,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "S2277",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1638382940,
+    "last_updated": 1639170187
+  },
+  {
+    "id": 331449,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "S2639",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1637781605,
+    "last_updated": 1639208693
+  },
+  {
+    "id": 372677,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "S6523",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1641477318,
+    "last_updated": 1641477318
+  },
+  {
+    "id": 367678,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "S8240",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1640888700,
+    "last_updated": 1640888700
+  },
+  {
+    "id": 366701,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "V2355",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "gasoline"
+    },
+    "date_created": 1640793054,
+    "last_updated": 1640793054
+  },
+  {
+    "id": 333412,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "V2846",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1637947306,
+    "last_updated": 1639209002
+  },
+  {
+    "id": 168197,
+    "status": "active",
+    "carrier_id": 759235544,
+    "license_plate": "WXN1R",
+    "site_id": "MLM",
+    "vehicle_type_id": 10,
+    "type": {
+      "id": 10,
+      "description": "Cars",
+      "capacity": 1,
+      "weight": 200,
+      "height": 100,
+      "width": 140,
+      "length": 80,
+      "additional_info": {
+        "capacity_per_unit": {
+          "volume_min": 0,
+          "volume_max": 0.06,
+          "weight_max": 25
+        },
+        "default_fuel_type": "gasoline",
+        "step_type": [
+          "last_mile"
+        ],
+        "max_speed": 90,
+        "is_traction": false
+      },
+      "qty_license_plate": 1
+    },
+    "attributes": {
+      "fuel_type": "diesel"
+    },
+    "date_created": 1627661874,
+    "last_updated": 1639208939
+  }
+]

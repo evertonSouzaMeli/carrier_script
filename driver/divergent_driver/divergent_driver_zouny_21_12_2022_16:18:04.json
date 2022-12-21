@@ -1,0 +1,2470 @@
+[
+  {
+    "driver_id": 467364,
+    "user_id": "1092588310",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Andres Isaac Alejandro",
+    "last_name": "Guillen",
+    "identification": {
+      "type": "CURP",
+      "value": "GUPA970426HGTLRN00"
+    },
+    "mail": "guillenpreciado381@gmail.com",
+    "phone": "4623051510",
+    "date_created": 1647710157,
+    "last_updated": 1669315448,
+    "birthdate": 862012800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1092598137"
+      }
+    ],
+    "preferred_first_name": "Andres Isaac",
+    "preferred_last_name": "Alejandro Guillen Preciado"
+  },
+  {
+    "driver_id": 251494,
+    "user_id": "832148178",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Angel",
+    "last_name": "Velazquez",
+    "identification": {
+      "type": "CURP",
+      "value": "VEOA900830HMCLSN00"
+    },
+    "mail": "dandi_090@hotmail.com",
+    "phone": "7122698930",
+    "date_created": 1632859437,
+    "last_updated": 1669317393,
+    "birthdate": 651974400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "35969987"
+      }
+    ],
+    "preferred_first_name": "Angel",
+    "preferred_last_name": "Velazquez Osorio"
+  },
+  {
+    "driver_id": 761621,
+    "user_id": "1255709818",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Antonio",
+    "last_name": "Giron",
+    "identification": {
+      "type": "CURP",
+      "value": "GIFA810313HMSRLN04"
+    },
+    "mail": "antoniogironflores1911@gmail.com",
+    "phone": "",
+    "date_created": 1670262882,
+    "last_updated": 1670262882,
+    "birthdate": 353289600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1255709818"
+      }
+    ],
+    "preferred_first_name": "Antonio",
+    "preferred_last_name": "Giron Flores"
+  },
+  {
+    "driver_id": 452222,
+    "user_id": "1083575885",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Araceli",
+    "last_name": "Estrada",
+    "identification": {
+      "type": "CURP",
+      "value": "EATA871016MMSSBR02"
+    },
+    "mail": "shelene.estrada3@gmail.com",
+    "phone": "7772667322",
+    "date_created": 1646328918,
+    "last_updated": 1664814358,
+    "birthdate": 561340800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1064901935"
+      }
+    ],
+    "preferred_first_name": "Araceli",
+    "preferred_last_name": "Estrada Taboada"
+  },
+  {
+    "driver_id": 750815,
+    "user_id": "179056482",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Armando",
+    "last_name": "Pantaleon",
+    "identification": {
+      "type": "CURP",
+      "value": "PABA660827HGRNRR06"
+    },
+    "mail": "apantaleon@hotmail.com",
+    "phone": "7774945136",
+    "date_created": 1669582541,
+    "last_updated": 1669582541,
+    "birthdate": -105667200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "179056482"
+      }
+    ],
+    "preferred_first_name": "Armando",
+    "preferred_last_name": "Pantaleon Brito"
+  },
+  {
+    "driver_id": 321615,
+    "user_id": "1017034106",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Arturo",
+    "last_name": "Sanchez",
+    "identification": {
+      "type": "CURP",
+      "value": "SASA980327HGTNNR09"
+    },
+    "mail": "arturomariela90@gmail.com",
+    "phone": "4611446746",
+    "date_created": 1636645626,
+    "last_updated": 1669317216,
+    "birthdate": 890956800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "740190419"
+      }
+    ],
+    "preferred_first_name": "Arturo",
+    "preferred_last_name": "Sanchez"
+  },
+  {
+    "driver_id": 174329,
+    "user_id": "801515880",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Arturo",
+    "last_name": "Valladares",
+    "identification": {
+      "type": "CURP",
+      "value": "VAMA981019HMCLJR02"
+    },
+    "mail": "avalladaresm597@alumno.uaemex.mx",
+    "phone": "",
+    "date_created": 1628014499,
+    "last_updated": 1669317591,
+    "birthdate": 908755200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1131605631"
+      }
+    ],
+    "preferred_first_name": "Arturo",
+    "preferred_last_name": "Valladares Mejia"
+  },
+  {
+    "driver_id": 768646,
+    "user_id": "388512623",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Bernabe",
+    "last_name": "Valle",
+    "identification": {
+      "type": "CURP",
+      "value": "VAHB851127HMSLRR09"
+    },
+    "mail": "bernavalle85@gmail.com",
+    "phone": "7773397056",
+    "date_created": 1670711481,
+    "last_updated": 1670711481,
+    "birthdate": 501897600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "388512623"
+      }
+    ],
+    "preferred_first_name": "Bernabe",
+    "preferred_last_name": "Valle Hernandez"
+  },
+  {
+    "driver_id": 221329,
+    "user_id": "819948426",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Brayan Manuel",
+    "last_name": "Iglecias",
+    "identification": {
+      "type": "CURP",
+      "value": "IESB980811HMCGVR08"
+    },
+    "mail": "brayan.11898@gmail.com",
+    "phone": "7224524456",
+    "date_created": 1630959233,
+    "last_updated": 1652757719,
+    "birthdate": 902793600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "185883746"
+      }
+    ],
+    "preferred_first_name": "Brayan Manuel",
+    "preferred_last_name": "Iglecias Saavedra"
+  },
+  {
+    "driver_id": 396380,
+    "user_id": "1059289180",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Daniel",
+    "last_name": "Mora",
+    "identification": {
+      "type": "CURP",
+      "value": "MOID940611HMCRBN08"
+    },
+    "mail": "danielmoraibarra7@gmail.com",
+    "phone": "5627965523",
+    "date_created": 1642543262,
+    "last_updated": 1669316115,
+    "birthdate": 771292800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1212216347"
+      }
+    ],
+    "preferred_first_name": "daniel",
+    "preferred_last_name": "mora ibarra"
+  },
+  {
+    "driver_id": 425796,
+    "user_id": "1070932299",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "David",
+    "last_name": "Garcia",
+    "identification": {
+      "type": "CURP",
+      "value": "GAZD971119HVZRVV00"
+    },
+    "mail": "dhavidswarner@gmail.com",
+    "phone": "2351036270",
+    "date_created": 1644342622,
+    "last_updated": 1669315778,
+    "birthdate": 879897600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "572456699"
+      }
+    ],
+    "preferred_first_name": "David",
+    "preferred_last_name": "Garcia Zavaleta"
+  },
+  {
+    "driver_id": 751177,
+    "user_id": "79959300",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "David Gerardo",
+    "last_name": "Hernandez",
+    "identification": {
+      "type": "CURP",
+      "value": "HEMD830730HDFRRV06"
+    },
+    "mail": "las3bdavid@hotmail.com",
+    "phone": "7774500935",
+    "date_created": 1669607892,
+    "last_updated": 1670260905,
+    "birthdate": 428371200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "79959300"
+      }
+    ],
+    "preferred_first_name": "David Gerardo",
+    "preferred_last_name": "Hernandez Martinez"
+  },
+  {
+    "driver_id": 762367,
+    "user_id": "1255697533",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Dayron Misaday",
+    "last_name": "Ramirez",
+    "identification": {
+      "type": "CURP",
+      "value": "RAVD981021HMSMLY05"
+    },
+    "mail": "dayronram33@hotmail.com",
+    "phone": "7774648214",
+    "date_created": 1670289100,
+    "last_updated": 1670289100,
+    "birthdate": 908928000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1255697533"
+      }
+    ],
+    "preferred_first_name": "Dayron Misaday",
+    "preferred_last_name": "Ramirez Vilchis"
+  },
+  {
+    "driver_id": 774491,
+    "user_id": "1263971553",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Diego Alejandro",
+    "last_name": "Bermejo",
+    "identification": {
+      "type": "CURP",
+      "value": "BECD030410HGTRRGA6"
+    },
+    "mail": "luzcervantes875@gmail.com",
+    "phone": "",
+    "date_created": 1671122931,
+    "last_updated": 1671122931,
+    "birthdate": 1049932800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1263971553"
+      }
+    ],
+    "preferred_first_name": "Diego Alejandro",
+    "preferred_last_name": "Bermejo Cervantes"
+  },
+  {
+    "driver_id": 758903,
+    "user_id": "1253641316",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Edgar",
+    "last_name": "Damian",
+    "identification": {
+      "type": "CURP",
+      "value": "DAFE870116HMSMLD01"
+    },
+    "mail": "edamianf.1601@gmail.com",
+    "phone": "",
+    "date_created": 1670015491,
+    "last_updated": 1670015491,
+    "birthdate": 537753600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1253641316"
+      }
+    ],
+    "preferred_first_name": "Edgar",
+    "preferred_last_name": "Damian Flores"
+  },
+  {
+    "driver_id": 135011,
+    "user_id": "747816046",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Eduardo",
+    "last_name": "Solis",
+    "identification": {
+      "type": "CURP",
+      "value": "SOAE811130HDFLVD06"
+    },
+    "mail": "eduardoavilasolis32@gmail.com",
+    "phone": "",
+    "date_created": 1619090464,
+    "last_updated": 1669318150,
+    "birthdate": 375926400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1109955066"
+      }
+    ],
+    "preferred_first_name": "Eduardo",
+    "preferred_last_name": "Solis Avila"
+  },
+  {
+    "driver_id": 171128,
+    "user_id": "798386935",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Eduardo Takeshi",
+    "last_name": "Reyes",
+    "identification": {
+      "type": "CURP",
+      "value": "RESE840618HDFYRD09"
+    },
+    "mail": "latisghost@gmail.com",
+    "phone": "5572039013",
+    "date_created": 1627493376,
+    "last_updated": 1669317661,
+    "birthdate": 456364800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "266335678"
+      }
+    ],
+    "preferred_first_name": "Eduardo Takeshi",
+    "preferred_last_name": "Reyes Serrano"
+  },
+  {
+    "driver_id": 613620,
+    "user_id": "1172449734",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Enrique Fernando",
+    "last_name": "Gonzalez",
+    "identification": {
+      "type": "CURP",
+      "value": "GORE900312HGTNDN08"
+    },
+    "mail": "enriquefernandogonzalez8@gmail.com",
+    "phone": "",
+    "date_created": 1659542958,
+    "last_updated": 1669314767,
+    "birthdate": 637200000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1134485204"
+      }
+    ],
+    "preferred_first_name": "Enrique Fernando",
+    "preferred_last_name": "Gonzalez Rodriguez"
+  },
+  {
+    "driver_id": 758865,
+    "user_id": "324978492",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Erick Alfonso",
+    "last_name": "Gutierrez",
+    "identification": {
+      "type": "CURP",
+      "value": "GUVE810810HMSTLR08"
+    },
+    "mail": "eagutierrez102508@gmail.com",
+    "phone": "",
+    "date_created": 1670013633,
+    "last_updated": 1670013633,
+    "birthdate": 366249600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "324978492"
+      }
+    ],
+    "preferred_first_name": "Erick Alfonso",
+    "preferred_last_name": "Gutierrez Vallejo"
+  },
+  {
+    "driver_id": 404897,
+    "user_id": "1062964164",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Erick Gibran",
+    "last_name": "Gil",
+    "identification": {
+      "type": "CURP",
+      "value": "GIGE011106HJCLZRA6"
+    },
+    "mail": "erick.ruiz120319@gmail.com",
+    "phone": "4623445490",
+    "date_created": 1643131040,
+    "last_updated": 1669315941,
+    "birthdate": 1005004800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1031616654"
+      }
+    ],
+    "preferred_first_name": "Erick Gibran",
+    "preferred_last_name": "Gil Guzman "
+  },
+  {
+    "driver_id": 138598,
+    "user_id": "753743305",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Erik",
+    "last_name": "Gonzalez",
+    "identification": {
+      "type": "CURP",
+      "value": "GOEE860703HMCNSR02"
+    },
+    "mail": "archikire30@gmail.com",
+    "phone": "",
+    "date_created": 1620127056,
+    "last_updated": 1669317957,
+    "birthdate": 520732800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1082423943"
+      }
+    ],
+    "preferred_first_name": "Erik",
+    "preferred_last_name": "Gonzalez Escamilla"
+  },
+  {
+    "driver_id": 664902,
+    "user_id": "1203915443",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Federico Antonio",
+    "last_name": "Palomares",
+    "identification": {
+      "type": "CURP",
+      "value": "PASF931222HCLLND04"
+    },
+    "mail": "familiapalomaresmijares@gmail.com",
+    "phone": "",
+    "date_created": 1663972040,
+    "last_updated": 1668188583,
+    "birthdate": 756518400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1203915443"
+      }
+    ],
+    "preferred_first_name": "Federico Antonio",
+    "preferred_last_name": "Palomares Santana"
+  },
+  {
+    "driver_id": 129184,
+    "user_id": "767888640",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Fernando",
+    "last_name": "Romero",
+    "identification": {
+      "type": "CURP",
+      "value": "ROCF890409HDFMSR03"
+    },
+    "mail": "ferbdgla@hotmail.com",
+    "phone": "5610788089",
+    "date_created": 1617287426,
+    "last_updated": 1669318174,
+    "birthdate": 608083200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "177110107"
+      }
+    ],
+    "preferred_first_name": "fernando",
+    "preferred_last_name": "romero"
+  },
+  {
+    "driver_id": 629470,
+    "user_id": "1182534745",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Gabriel Apolinar",
+    "last_name": "Hernandez",
+    "identification": {
+      "type": "CURP",
+      "value": "HECG830723HMCRRB02"
+    },
+    "mail": "gabozouny123456@gmail.com",
+    "phone": "",
+    "date_created": 1660916171,
+    "last_updated": 1669314430,
+    "birthdate": 427766400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1182591212"
+      }
+    ],
+    "preferred_first_name": "Gabriel Apolinar",
+    "preferred_last_name": "Hernandez Cruz"
+  },
+  {
+    "driver_id": 481758,
+    "user_id": "1101855431",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Gerardo",
+    "last_name": "Sotelo",
+    "identification": {
+      "type": "CURP",
+      "value": "SOCG880520HSLTLR07"
+    },
+    "mail": "gerardo.sotelo.calderon@gmail.com",
+    "phone": "4623106270",
+    "date_created": 1649180207,
+    "last_updated": 1652150289,
+    "birthdate": 580089600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1121104099"
+      }
+    ],
+    "preferred_first_name": "Gerardo",
+    "preferred_last_name": "Sotelo Calderon"
+  },
+  {
+    "driver_id": 221365,
+    "user_id": "819959143",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Glenda Saray",
+    "last_name": "Tapia",
+    "identification": {
+      "type": "CURP",
+      "value": "TARG900123MMCPDL01"
+    },
+    "mail": "xxxavier705@gmail.com",
+    "phone": "",
+    "date_created": 1630960390,
+    "last_updated": 1669317444,
+    "birthdate": 633052800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1065005183"
+      }
+    ],
+    "preferred_first_name": "Glenda Saray",
+    "preferred_last_name": "Tapia Rodriguez"
+  },
+  {
+    "driver_id": 749092,
+    "user_id": "1248160641",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Gustavo",
+    "last_name": "Muños",
+    "identification": {
+      "type": "CURP",
+      "value": "MUQG830412HMSXXS05"
+    },
+    "mail": "gmuqui777@gmail.com",
+    "phone": "",
+    "date_created": 1669417300,
+    "last_updated": 1671468620,
+    "birthdate": 418953600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1248160641"
+      }
+    ],
+    "preferred_first_name": "Gustavo",
+    "preferred_last_name": "Muños Quiñones"
+  },
+  {
+    "driver_id": 417369,
+    "user_id": "1067228508",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Gustavo Adolfo",
+    "last_name": "Valdez",
+    "identification": {
+      "type": "CURP",
+      "value": "VAJG930626HCLLRS05"
+    },
+    "mail": "adolfovaldez817@gmail.com",
+    "phone": "8712636549",
+    "date_created": 1643775218,
+    "last_updated": 1668188655,
+    "birthdate": 741052800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "481813162"
+      }
+    ],
+    "preferred_first_name": "Gustavo Adolfo",
+    "preferred_last_name": "Valdez Jaramillo"
+  },
+  {
+    "driver_id": 137114,
+    "user_id": "751051052",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Hector",
+    "last_name": "Ramirez",
+    "identification": {
+      "type": "CURP",
+      "value": "RAOH931117HDFMLC03"
+    },
+    "mail": "hectorrr_617@hotmail.com",
+    "phone": "5529213929",
+    "date_created": 1619646389,
+    "last_updated": 1669318125,
+    "birthdate": 753494400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "233137961"
+      }
+    ],
+    "preferred_first_name": "Hector",
+    "preferred_last_name": "Ramirez Olvera"
+  },
+  {
+    "driver_id": 468777,
+    "user_id": "1093690010",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Hugo Armando",
+    "last_name": "Rangel",
+    "identification": {
+      "type": "CURP",
+      "value": "RACH700812HGTNNG02"
+    },
+    "mail": "hugo.rangelcenteno@gmail.com",
+    "phone": "4621943750",
+    "date_created": 1647898516,
+    "last_updated": 1669315383,
+    "birthdate": 19267200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1082148450"
+      }
+    ],
+    "preferred_first_name": "Hugo Armando",
+    "preferred_last_name": "Rangel Centeno"
+  },
+  {
+    "driver_id": 766943,
+    "user_id": "1248780481",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Humberto",
+    "last_name": "Ramirez",
+    "identification": {
+      "type": "CURP",
+      "value": "RARH880314HCLMDM04"
+    },
+    "mail": "hr880314@gmail.com",
+    "phone": "8715488528",
+    "date_created": 1670542920,
+    "last_updated": 1670542920,
+    "birthdate": 574300800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1248780481"
+      }
+    ],
+    "preferred_first_name": "Humber",
+    "preferred_last_name": "Ramirez"
+  },
+  {
+    "driver_id": 737288,
+    "user_id": "742322407",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Iliana",
+    "last_name": "Eugenio",
+    "identification": {
+      "type": "CURP",
+      "value": "EUMI981109MPLGRL06"
+    },
+    "mail": "ilianame09@gmail.com",
+    "phone": "5548514118",
+    "date_created": 1668714947,
+    "last_updated": 1668714947,
+    "birthdate": 910569600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "742322407"
+      }
+    ],
+    "preferred_first_name": "Iliana",
+    "preferred_last_name": "Eugenio"
+  },
+  {
+    "driver_id": 626683,
+    "user_id": "1180911251",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Javier Arturo",
+    "last_name": "Peña",
+    "identification": {
+      "type": "CURP",
+      "value": "PEAJ950413HMCXGV05"
+    },
+    "mail": "carteldelascalles09@gmail.com",
+    "phone": "",
+    "date_created": 1660695137,
+    "last_updated": 1669314643,
+    "birthdate": 797731200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "user_data_updated",
+        "value": "false"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1180913702"
+      }
+    ],
+    "preferred_first_name": "Javier Arturo",
+    "preferred_last_name": "Peña Aguilar"
+  },
+  {
+    "driver_id": 321623,
+    "user_id": "1017040724",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Javier Gabriel",
+    "last_name": "Figueroa",
+    "identification": {
+      "type": "CURP",
+      "value": "FIAJ030818HGTGLVA2"
+    },
+    "mail": "javierfigueroa2027@gmail.com",
+    "phone": "4611821569",
+    "date_created": 1636645801,
+    "last_updated": 1669317187,
+    "birthdate": 1061164800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "521232384"
+      }
+    ],
+    "preferred_first_name": "Javier Gabriel",
+    "preferred_last_name": "Figueroa Alvarez"
+  },
+  {
+    "driver_id": 101233,
+    "user_id": "690561264",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jesus Alfonso",
+    "last_name": "Escutia",
+    "identification": {
+      "type": "CURP",
+      "value": "EUPJ951118HMCSDS16"
+    },
+    "mail": "aylinnescutia15@gmail.com",
+    "phone": "",
+    "date_created": 1608390466,
+    "last_updated": 1650460737,
+    "birthdate": 816652800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1109946578"
+      }
+    ],
+    "preferred_first_name": "Jesus Alfonso",
+    "preferred_last_name": "Escutia Padilla"
+  },
+  {
+    "driver_id": 738012,
+    "user_id": "1241794074",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Jesus Manuel",
+    "last_name": "Alvarado",
+    "identification": {
+      "type": "CURP",
+      "value": "AAEJ960526HCLLSS04"
+    },
+    "mail": "alvaradoestradajesusmanuel@gmail.com",
+    "phone": "",
+    "date_created": 1668741430,
+    "last_updated": 1668741430,
+    "birthdate": 833068800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1241794074"
+      }
+    ],
+    "preferred_first_name": "Jesus Manuel",
+    "preferred_last_name": "Alvarado Estrada"
+  },
+  {
+    "driver_id": 505667,
+    "user_id": "1114479184",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jhonatan",
+    "last_name": "Hernandez",
+    "identification": {
+      "type": "CURP",
+      "value": "HEPJ971229HCHRRH08"
+    },
+    "mail": "jona.87118711@gmail.com",
+    "phone": "8715909886",
+    "date_created": 1651169075,
+    "last_updated": 1669315087,
+    "birthdate": 883353600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "743782316"
+      }
+    ],
+    "preferred_first_name": "Jhonatan",
+    "preferred_last_name": "Hernandez Perez"
+  },
+  {
+    "driver_id": 641777,
+    "user_id": "1190341611",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Jonathan Mauricio",
+    "last_name": "Perez",
+    "identification": {
+      "type": "CURP",
+      "value": "PEAJ910513HGTRLN07"
+    },
+    "mail": "memarce73@gmail.com",
+    "phone": "",
+    "date_created": 1662048629,
+    "last_updated": 1669477780,
+    "birthdate": 674092800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1190338880"
+      }
+    ],
+    "preferred_first_name": "Jonathan Mauricio",
+    "preferred_last_name": "Perez Alcantara"
+  },
+  {
+    "driver_id": 479669,
+    "user_id": "1100224739",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jorge",
+    "last_name": "Arriaga",
+    "identification": {
+      "type": "CURP",
+      "value": "AIVJ661109HDFRLR06"
+    },
+    "mail": "jorgearriagavelazquez5151@gmail.com",
+    "phone": "5511973551",
+    "date_created": 1648919112,
+    "last_updated": 1669315156,
+    "birthdate": -99273600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1100231281"
+      }
+    ],
+    "preferred_first_name": "Jorge",
+    "preferred_last_name": "Arriaga Velazquez"
+  },
+  {
+    "driver_id": 15301,
+    "user_id": "530834224",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jorge",
+    "last_name": "Lozano",
+    "identification": {
+      "type": "CURP",
+      "value": "LOLJ940220HMCZGR06"
+    },
+    "mail": "rutastoluca@zounyapp.com",
+    "phone": "7293241443",
+    "date_created": 1582759101,
+    "last_updated": 1669318337,
+    "birthdate": 761702400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "701382089"
+      }
+    ],
+    "preferred_first_name": "Jorge",
+    "preferred_last_name": "Lozano Lugo"
+  },
+  {
+    "driver_id": 403085,
+    "user_id": "1062389178",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jorge Brandon",
+    "last_name": "Perez",
+    "identification": {
+      "type": "CURP",
+      "value": "PESJ990720HMCRNR07"
+    },
+    "mail": "brandonjorgesanchez@gmail.com",
+    "phone": "5511246918",
+    "date_created": 1643047504,
+    "last_updated": 1669315967,
+    "birthdate": 932428800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "448158348"
+      }
+    ],
+    "preferred_first_name": "Jorge Brandon",
+    "preferred_last_name": "Perez Sanchez"
+  },
+  {
+    "driver_id": 364870,
+    "user_id": "1041570127",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jose Alberto",
+    "last_name": "Hernandez",
+    "identification": {
+      "type": "CURP",
+      "value": "HEAA030227HGTRGLA7"
+    },
+    "mail": "alberto.hdzag12@gmail.com",
+    "phone": "4613434308",
+    "date_created": 1639758325,
+    "last_updated": 1669317094,
+    "birthdate": 1046304000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "545566622"
+      }
+    ],
+    "preferred_first_name": "Jose Alberto",
+    "preferred_last_name": "Hernandez Aguilar"
+  },
+  {
+    "driver_id": 144988,
+    "user_id": "762897473",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jose Alfredo",
+    "last_name": "Jimenez",
+    "identification": {
+      "type": "CURP",
+      "value": "JILA980414HDFMPL02"
+    },
+    "mail": "jjosealfredo605@gmail.com",
+    "phone": "4622298625",
+    "date_created": 1621594325,
+    "last_updated": 1669317799,
+    "birthdate": 892512000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "260252756"
+      }
+    ],
+    "preferred_first_name": "Jose Alfredo",
+    "preferred_last_name": "Jimenez Lopez"
+  },
+  {
+    "driver_id": 318907,
+    "user_id": "1015847957",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jose Antonio",
+    "last_name": "Magdaleno",
+    "identification": {
+      "type": "CURP",
+      "value": "MAMA020214HMCGRNA5"
+    },
+    "mail": "antoniomartinez140202@gmail.com",
+    "phone": "5632864428",
+    "date_created": 1636496530,
+    "last_updated": 1669317237,
+    "birthdate": 1013644800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "351954272"
+      }
+    ],
+    "preferred_first_name": "Jose Antonio",
+    "preferred_last_name": "Magdaleno Martinez"
+  },
+  {
+    "driver_id": 444839,
+    "user_id": "1079371628",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Jose Fabian",
+    "last_name": "Landa",
+    "identification": {
+      "type": "CURP",
+      "value": "LAVF030409HGTNZBA1"
+    },
+    "mail": "3fabianlv33@gmail.com",
+    "phone": "4612965017",
+    "date_created": 1645635024,
+    "last_updated": 1669765865,
+    "birthdate": 1049846400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "518734285"
+      }
+    ],
+    "preferred_first_name": "Jose Fabian",
+    "preferred_last_name": "Landa Vazquez"
+  },
+  {
+    "driver_id": 53654,
+    "user_id": "657889405",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jose Gerardo",
+    "last_name": "Guarro",
+    "identification": {
+      "type": "CURP",
+      "value": "GUGG810617HDFRRR02"
+    },
+    "mail": "gerardoguarrogarcia@gmail.com",
+    "phone": "7772338194",
+    "date_created": 1600516477,
+    "last_updated": 1664818863,
+    "birthdate": 361584000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "310180376"
+      }
+    ],
+    "preferred_first_name": "Jose Gerardo",
+    "preferred_last_name": "Guarro Garcia"
+  },
+  {
+    "driver_id": 682684,
+    "user_id": "1211354498",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jose Ismael",
+    "last_name": "Delgado",
+    "identification": {
+      "type": "CURP",
+      "value": "DEGI850227HDGLRS03"
+    },
+    "mail": "delgadogarciajoseismael@gmail.com",
+    "phone": "",
+    "date_created": 1665260352,
+    "last_updated": 1668188558,
+    "birthdate": 478310400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1211354498"
+      }
+    ],
+    "preferred_first_name": "Jose Ismael",
+    "preferred_last_name": "Delgado Garcia"
+  },
+  {
+    "driver_id": 384830,
+    "user_id": "1053215810",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jose Luis",
+    "last_name": "de la Torre",
+    "identification": {
+      "type": "CURP",
+      "value": "TOFL921013HCLRNS04"
+    },
+    "mail": "lestat.makabra666@gmail.com",
+    "phone": "8711845930",
+    "date_created": 1641621884,
+    "last_updated": 1668188627,
+    "birthdate": 718934400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1080621965"
+      }
+    ],
+    "preferred_first_name": "Jose Luis",
+    "preferred_last_name": "La Torre Fuente"
+  },
+  {
+    "driver_id": 520074,
+    "user_id": "1121187480",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Jose Manuel",
+    "last_name": "Desiderio",
+    "identification": {
+      "type": "CURP",
+      "value": "DETM990528HDFSPN03"
+    },
+    "mail": "tapiajosemanueldeciderio@gmail.com",
+    "phone": "",
+    "date_created": 1652180852,
+    "last_updated": 1669314805,
+    "birthdate": 927849600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1081378299"
+      }
+    ],
+    "preferred_first_name": "Jose Manuel",
+    "preferred_last_name": "Desiderio Tapia"
+  },
+  {
+    "driver_id": 473395,
+    "user_id": "1096079892",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Juan Carlos",
+    "last_name": "Orozco",
+    "identification": {
+      "type": "CURP",
+      "value": "OORJ820123HGTRMN19"
+    },
+    "mail": "juancarlosorozco.rmz@gmail.com",
+    "phone": "",
+    "date_created": 1648246789,
+    "last_updated": 1669315244,
+    "birthdate": 380592000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "user_data_updated",
+        "value": "false"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1098706958"
+      }
+    ],
+    "preferred_first_name": "Juan Carlos",
+    "preferred_last_name": "Orozco Ramirez"
+  },
+  {
+    "driver_id": 750365,
+    "user_id": "1009963372",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Juan Gabriel",
+    "last_name": "Rosales",
+    "identification": {
+      "type": "CURP",
+      "value": "ROQJ730522HMSSZN02"
+    },
+    "mail": "jgrqros@gmail.com",
+    "phone": "7773872392",
+    "date_created": 1669522783,
+    "last_updated": 1669522783,
+    "birthdate": 106876800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1009963372"
+      }
+    ],
+    "preferred_first_name": "Juan Gabriel",
+    "preferred_last_name": "Rosales Quezada"
+  },
+  {
+    "driver_id": 740847,
+    "user_id": "1213558176",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Juan Guillermo",
+    "last_name": "Hernandez",
+    "identification": {
+      "type": "CURP",
+      "value": "HECJ970625HGTRHN06"
+    },
+    "mail": "kochisjhc@gmail.com",
+    "phone": "4623048588",
+    "date_created": 1668968354,
+    "last_updated": 1668968354,
+    "birthdate": 867196800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1213558176"
+      }
+    ],
+    "preferred_first_name": "Juan Guillermo",
+    "preferred_last_name": "Hernandez Chavez"
+  },
+  {
+    "driver_id": 99165,
+    "user_id": "688204103",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Juan Jaime",
+    "last_name": "Arzaluz",
+    "identification": {
+      "type": "CURP",
+      "value": "AAVJ880105HMCRRN08"
+    },
+    "mail": "jovanniarzaluz@gmail.com",
+    "phone": "7261019291",
+    "date_created": 1608040464,
+    "last_updated": 1645297417,
+    "birthdate": 568339200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "621068799"
+      }
+    ],
+    "preferred_first_name": "Juan Jaime",
+    "preferred_last_name": "Arzaluz Vera"
+  },
+  {
+    "driver_id": 476383,
+    "user_id": "1098061354",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Juan Luis",
+    "last_name": "Vargas",
+    "identification": {
+      "type": "CURP",
+      "value": "VAHJ751029HDFRRN03"
+    },
+    "mail": "vargashernandezjuanluis@gmail.com",
+    "phone": "4622090033",
+    "date_created": 1648589272,
+    "last_updated": 1669315200,
+    "birthdate": 183772800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1010617004"
+      }
+    ],
+    "preferred_first_name": "Juan Luis",
+    "preferred_last_name": "Vargas Hernandez"
+  },
+  {
+    "driver_id": 647060,
+    "user_id": "1192552556",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Kattia Estefenia",
+    "last_name": "Luna",
+    "identification": {
+      "type": "CURP",
+      "value": "LUVK030609MGTNZTA0"
+    },
+    "mail": "kattyaluna075@gmail.com",
+    "phone": "",
+    "date_created": 1662565353,
+    "last_updated": 1669483644,
+    "birthdate": 1055116800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1192552556"
+      }
+    ],
+    "preferred_first_name": "Kattia Estefenia",
+    "preferred_last_name": "Luna Vazquez"
+  },
+  {
+    "driver_id": 442006,
+    "user_id": "1078229009",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Liliana Aide",
+    "last_name": "Gaona",
+    "identification": {
+      "type": "CURP",
+      "value": "GAHL850322MMSNRL03"
+    },
+    "mail": "lide16@live.com.mx",
+    "phone": "7772571527",
+    "date_created": 1645472066,
+    "last_updated": 1669315644,
+    "birthdate": 480297600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "305840398"
+      }
+    ],
+    "preferred_first_name": "Liliana Aide",
+    "preferred_last_name": "Gaona Hernandez"
+  },
+  {
+    "driver_id": 507815,
+    "user_id": "1115418051",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Luis Enrique",
+    "last_name": "Canseco",
+    "identification": {
+      "type": "CURP",
+      "value": "CABL000505HMCNTSA9"
+    },
+    "mail": "luisenriquecanseco527@gmail.com",
+    "phone": "",
+    "date_created": 1651320696,
+    "last_updated": 1669315076,
+    "birthdate": 957484800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1115464601"
+      }
+    ],
+    "preferred_first_name": "Luis Enrique",
+    "preferred_last_name": "Canseco Beatriz"
+  },
+  {
+    "driver_id": 408668,
+    "user_id": "1064080929",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Luis Gerardo",
+    "last_name": "Olalde",
+    "identification": {
+      "type": "CURP",
+      "value": "OAML951130HGTLRS07"
+    },
+    "mail": "l.olaldeg95@gmail.com",
+    "phone": "4612771630",
+    "date_created": 1643295431,
+    "last_updated": 1669315918,
+    "birthdate": 817689600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1076663389"
+      }
+    ],
+    "preferred_first_name": "Luis Gerardo",
+    "preferred_last_name": "Olalde Martinez"
+  },
+  {
+    "driver_id": 165935,
+    "user_id": "793073290",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Manuel Armando",
+    "last_name": "Pacheco",
+    "identification": {
+      "type": "CURP",
+      "value": "PAAM990726HMCCLN03"
+    },
+    "mail": "zoepatcheco40@gmail.com",
+    "phone": "5621297419",
+    "date_created": 1626609474,
+    "last_updated": 1671553462,
+    "birthdate": 932947200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1200554012"
+      }
+    ],
+    "preferred_first_name": "manuel ",
+    "preferred_last_name": "pacheco "
+  },
+  {
+    "driver_id": 398906,
+    "user_id": "1060308709",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Marco Antonio",
+    "last_name": "Mendoza",
+    "identification": {
+      "type": "CURP",
+      "value": "MERM010425HGTNMRA1"
+    },
+    "mail": "marquitos250401@gmail.com",
+    "phone": "7298774659",
+    "date_created": 1642698870,
+    "last_updated": 1669316066,
+    "birthdate": 988156800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1068217732"
+      }
+    ],
+    "preferred_first_name": "Marco Antonio",
+    "preferred_last_name": "Mendoza Ramirez"
+  },
+  {
+    "driver_id": 438767,
+    "user_id": "1076657543",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Marcos",
+    "last_name": "Segura",
+    "identification": {
+      "type": "CURP",
+      "value": "SERM940523HGTGMR02"
+    },
+    "mail": "marcosseguraramirez@gmail.com",
+    "phone": "4614233917",
+    "date_created": 1645203058,
+    "last_updated": 1669315674,
+    "birthdate": 769651200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1076122521"
+      }
+    ],
+    "preferred_first_name": "Marcos",
+    "preferred_last_name": "Segura Ramirez"
+  },
+  {
+    "driver_id": 213994,
+    "user_id": "817201285",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Marcos Gilberto",
+    "last_name": "Lopez",
+    "identification": {
+      "type": "CURP",
+      "value": "LONM890808HCLPLR06"
+    },
+    "mail": "marcosnolasco471@gmail.com",
+    "phone": "8715683858",
+    "date_created": 1630522402,
+    "last_updated": 1668188706,
+    "birthdate": 618537600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "834240800"
+      }
+    ],
+    "preferred_first_name": "Marcos Gilberto",
+    "preferred_last_name": "Lopez Nolasco"
+  },
+  {
+    "driver_id": 767725,
+    "user_id": "1191267166",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Martin",
+    "last_name": "Sanchez",
+    "identification": {
+      "type": "CURP",
+      "value": "SAMM920414HMSNLR07"
+    },
+    "mail": "san30.martin92@gmail.com",
+    "phone": "7776143726",
+    "date_created": 1670614741,
+    "last_updated": 1670614741,
+    "birthdate": 703209600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1191267166"
+      }
+    ],
+    "preferred_first_name": "Martín",
+    "preferred_last_name": "Sánchez"
+  },
+  {
+    "driver_id": 318825,
+    "user_id": "1015795954",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Mauricio",
+    "last_name": "Rosas",
+    "identification": {
+      "type": "CURP",
+      "value": "ROSM981014HMCSNR06"
+    },
+    "mail": "mau.rosassanchez@gmail.com",
+    "phone": "5614495353",
+    "date_created": 1636492990,
+    "last_updated": 1671047773,
+    "birthdate": 908323200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "with_kyc_user_id",
+        "value": "339771737"
+      }
+    ],
+    "preferred_first_name": "Mauricio",
+    "preferred_last_name": "Rosas Sanchez"
+  },
+  {
+    "driver_id": 264028,
+    "user_id": "836717346",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Michelle Jonathan",
+    "last_name": "Monroy",
+    "identification": {
+      "type": "CURP",
+      "value": "MOGM820330HDFNRC02"
+    },
+    "mail": "michell.zouny@gmail.com",
+    "phone": "5532535690",
+    "date_created": 1633540732,
+    "last_updated": 1669483235,
+    "birthdate": 386294400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1241431831"
+      }
+    ],
+    "preferred_first_name": "michell",
+    "preferred_last_name": "monroy"
+  },
+  {
+    "driver_id": 490513,
+    "user_id": "1108268122",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Misha",
+    "last_name": "Ojeda",
+    "identification": {
+      "type": "CURP",
+      "value": "OERM940917HGTJMS06"
+    },
+    "mail": "inkints@gmail.com20220427115007",
+    "phone": "",
+    "date_created": 1650209481,
+    "last_updated": 1669315135,
+    "birthdate": 779760000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "user_data_updated",
+        "value": "false"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1110102772"
+      }
+    ],
+    "preferred_first_name": "Misha",
+    "preferred_last_name": "Ojeda Ramirez"
+  },
+  {
+    "driver_id": 749858,
+    "user_id": "737534649",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Omar",
+    "last_name": "Rivera",
+    "identification": {
+      "type": "CURP",
+      "value": "RIRO690330HMSVMM05"
+    },
+    "mail": "omar.rivera3081@gmail.com",
+    "phone": "",
+    "date_created": 1669483182,
+    "last_updated": 1669483182,
+    "birthdate": -23932800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "737534649"
+      }
+    ],
+    "preferred_first_name": "Omar",
+    "preferred_last_name": "Rivera Roman"
+  },
+  {
+    "driver_id": 67745,
+    "user_id": "661811886",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Osvaldo",
+    "last_name": "Flores",
+    "identification": {
+      "type": "CURP",
+      "value": "FOFO971216HMCLLS07"
+    },
+    "mail": "osvaldofloresflores@gmail.com",
+    "phone": "7221617565",
+    "date_created": 1603309874,
+    "last_updated": 1669318316,
+    "birthdate": 882230400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "658676542"
+      }
+    ],
+    "preferred_first_name": "Osvaldo",
+    "preferred_last_name": "Flores"
+  },
+  {
+    "driver_id": 302562,
+    "user_id": "1008617141",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Pablo Cesar",
+    "last_name": "Chavez",
+    "identification": {
+      "type": "CURP",
+      "value": "CAVP000126HMCHLBA3"
+    },
+    "mail": "pablocesarchavez981@gmail.com",
+    "phone": "",
+    "date_created": 1635446384,
+    "last_updated": 1669317267,
+    "birthdate": 948844800,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1062742466"
+      }
+    ],
+    "preferred_first_name": "Pablo Cesar",
+    "preferred_last_name": "Chavez Valladares"
+  },
+  {
+    "driver_id": 157147,
+    "user_id": "781074631",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Patricia Joanohen",
+    "last_name": "Solis",
+    "identification": {
+      "type": "CURP",
+      "value": "SOAP771022MDFLVT12"
+    },
+    "mail": "joanohensolis@gmail.com",
+    "phone": "7296153862",
+    "date_created": 1624619510,
+    "last_updated": 1669317753,
+    "birthdate": 246326400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1079174797"
+      }
+    ],
+    "preferred_first_name": "Patricia Joanohen",
+    "preferred_last_name": "Solis Avila"
+  },
+  {
+    "driver_id": 391023,
+    "user_id": "1056280576",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Ramon Alejandro",
+    "last_name": "Mancera",
+    "identification": {
+      "type": "CURP",
+      "value": "MAOR960927HGTNLM05"
+    },
+    "mail": "manceraramon673@gmail.com",
+    "phone": "6625115066",
+    "date_created": 1642094296,
+    "last_updated": 1669316144,
+    "birthdate": 843782400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "user_data_updated",
+        "value": "false"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "726529817"
+      }
+    ],
+    "preferred_first_name": "Ramon Alejandro",
+    "preferred_last_name": "Mancera Olalde"
+  },
+  {
+    "driver_id": 365150,
+    "user_id": "1041718940",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Reyes Francisco",
+    "last_name": "Meza",
+    "identification": {
+      "type": "CURP",
+      "value": "MECR930817HCLZNY05"
+    },
+    "mail": "reyesde72@hotmail.com",
+    "phone": "8711285368",
+    "date_created": 1639771120,
+    "last_updated": 1669317061,
+    "birthdate": 745545600,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "839408454"
+      }
+    ],
+    "preferred_first_name": "Reyes Francisco",
+    "preferred_last_name": "Meza Contreras"
+  },
+  {
+    "driver_id": 176034,
+    "user_id": "802569246",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Roberto Carlos",
+    "last_name": "Garcia",
+    "identification": {
+      "type": "CURP",
+      "value": "GAGR800622HDFRRB08"
+    },
+    "mail": "rcggwolf@gmail.com",
+    "phone": "4613995864",
+    "date_created": 1628172126,
+    "last_updated": 1669317546,
+    "birthdate": 330480000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "278345301"
+      }
+    ],
+    "preferred_first_name": "Roberto Carlos",
+    "preferred_last_name": "Garcia"
+  },
+  {
+    "driver_id": 142602,
+    "user_id": "759634975",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Rolando",
+    "last_name": "Luvianos",
+    "identification": {
+      "type": "CURP",
+      "value": "LUGR760125HMCVDL00"
+    },
+    "mail": "rolandoluvianos18@gmail.com",
+    "phone": "",
+    "date_created": 1621031135,
+    "last_updated": 1669317865,
+    "birthdate": 191376000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1079933172"
+      }
+    ],
+    "preferred_first_name": "Rolando",
+    "preferred_last_name": "Luvianos Guadarrama"
+  },
+  {
+    "driver_id": 757144,
+    "user_id": "1252715672",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Ruben",
+    "last_name": "Gomez",
+    "identification": {
+      "type": "CURP",
+      "value": "GOAR690322HDFMRB03"
+    },
+    "mail": "rubengomezarizmendi@gmail.com",
+    "phone": "",
+    "date_created": 1669918528,
+    "last_updated": 1669918528,
+    "birthdate": -24624000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1252715672"
+      }
+    ],
+    "preferred_first_name": "Ruben",
+    "preferred_last_name": "Gomez Arizmendi"
+  },
+  {
+    "driver_id": 110034,
+    "user_id": "704222349",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Sandra Lizbeth",
+    "last_name": "Mendoza",
+    "identification": {
+      "type": "CURP",
+      "value": "MEVS900711MDFNLN02"
+    },
+    "mail": "charrin0629@gmail.com",
+    "phone": "5513035800",
+    "date_created": 1611146463,
+    "last_updated": 1668714915,
+    "birthdate": 647654400,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "identification_updated_correctly",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "276898401"
+      }
+    ],
+    "preferred_first_name": "Sandra Lizbeth",
+    "preferred_last_name": "Mendoza Del Villar"
+  },
+  {
+    "driver_id": 174051,
+    "user_id": "801338560",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Sandro Fernando",
+    "last_name": "Lugo",
+    "identification": {
+      "type": "CURP",
+      "value": "LUBS740518HDFGLN07"
+    },
+    "mail": "beltransandrolugo@gmail.com",
+    "phone": "",
+    "date_created": 1627995795,
+    "last_updated": 1669317644,
+    "birthdate": 138067200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1120657795"
+      }
+    ],
+    "preferred_first_name": "Sandro Fernando",
+    "preferred_last_name": "Lugo Beltran"
+  },
+  {
+    "driver_id": 373806,
+    "user_id": "1046963159",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Sergio",
+    "last_name": "Rodríguez",
+    "identification": {
+      "type": "CURP",
+      "value": "ROFS931111HCLDNR02"
+    },
+    "mail": "sergiordzdlf@gmail.com",
+    "phone": "8715248960",
+    "date_created": 1640622154,
+    "last_updated": 1668188664,
+    "birthdate": 752976000,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "765387707"
+      }
+    ],
+    "preferred_first_name": "Sergio Rodriguez",
+    "preferred_last_name": "La Fuente"
+  },
+  {
+    "driver_id": 780533,
+    "user_id": "1270163999",
+    "status": "active",
+    "carrier_id": 1831025940,
+    "first_name": "Sergio Alejandro",
+    "last_name": "Magaña",
+    "identification": {
+      "type": "CURP",
+      "value": "MAMS710906HDFGXR06"
+    },
+    "mail": "aalejandro333371@gmail.com",
+    "phone": "",
+    "date_created": 1671646725,
+    "last_updated": 1671646725,
+    "birthdate": 52963200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "1270163999"
+      }
+    ],
+    "preferred_first_name": "Sergio Alejandro",
+    "preferred_last_name": "Magaña Muñoz"
+  },
+  {
+    "driver_id": 349856,
+    "user_id": "1032032027",
+    "status": "inactive",
+    "carrier_id": 1831025940,
+    "first_name": "Victor Daniel",
+    "last_name": "Toledo",
+    "identification": {
+      "type": "CURP",
+      "value": "TOHV980701HGTLRC06"
+    },
+    "mail": "chinais.908@gmail.com",
+    "phone": "",
+    "date_created": 1638548281,
+    "last_updated": 1669317153,
+    "birthdate": 899251200,
+    "site_id": "MLM",
+    "attributes": [
+      {
+        "key": "has_internal_tag",
+        "value": "true"
+      },
+      {
+        "key": "with_kyc_user_id",
+        "value": "444661925"
+      }
+    ],
+    "preferred_first_name": "Victor Daniel",
+    "preferred_last_name": "Toledo Hernandez"
+  }
+]
