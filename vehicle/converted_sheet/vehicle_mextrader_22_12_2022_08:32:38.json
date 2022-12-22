@@ -1,0 +1,704 @@
+[
+  {
+    "id": 142611,
+    "license_plate": "MT0993H",
+    "type": {
+      "description": "CAMION"
+    },
+    "year": 2016,
+    "invoice_code_configuration": "C2"
+  },
+  {
+    "id": 642800,
+    "license_plate": "NF6718A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2011,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PLE370C",
+    "type": {
+      "description": "CARS"
+    },
+    "year": 2002,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NA0441B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2015,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NA0438B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2014,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 506987,
+    "license_plate": "NF6719A",
+    "type": {
+      "description": "CARS"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 491768,
+    "license_plate": "PHX043B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PHX041B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 388949,
+    "license_plate": "JX47468",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 611286,
+    "license_plate": "PHX045B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NA0588B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2013,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 638320,
+    "license_plate": "PHX171B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2015,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PHX044B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2015,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 630883,
+    "license_plate": "NF6724A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2022,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 678897,
+    "license_plate": "NF6723A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2022,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 616084,
+    "license_plate": "NF6704A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NF6708A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 608939,
+    "license_plate": "NF6706A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 687611,
+    "license_plate": "PLF649C",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2019,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PLF648C",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NA2790B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2010,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "MX1910B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2010,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "JX60775",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PHX042B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2016,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NF6720A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 165517,
+    "license_plate": "PJV068A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2018,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 201003,
+    "license_plate": "MV3987E",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2019,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NF6705A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 662448,
+    "license_plate": "NA0586B",
+    "type": {
+      "description": "CAMION"
+    },
+    "year": 2001,
+    "invoice_code_configuration": "C2"
+  },
+  {
+    "id": 188968,
+    "license_plate": "PAF3619",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2014,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NF6328A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PHX040B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2016,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 136789,
+    "license_plate": "MU8578A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2009,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PFD741R",
+    "type": {
+      "description": "CARS"
+    },
+    "year": 2001,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 115348,
+    "license_plate": "PLH253A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2016,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 711923,
+    "license_plate": "PPM952B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2014,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 708667,
+    "license_plate": "NF6725A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2022,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 411595,
+    "license_plate": "JX60776",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 708665,
+    "license_plate": "ND4388A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2020,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PPM9551B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2012,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 652913,
+    "license_plate": "PHX046B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2015,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NA0440B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2016,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NA0437B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2015,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 741640,
+    "license_plate": "PLF647C",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 642800,
+    "license_plate": "NF6718A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 752063,
+    "license_plate": "NR6935B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NR6936B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NB6933B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2022,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NA0587B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2012,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NA0439B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2016,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PHV824B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "MX1911B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 202612,
+    "license_plate": "PGD836J",
+    "type": {
+      "description": "CARS"
+    },
+    "year": 2011,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 122498,
+    "license_plate": "H69ACN",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2015,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NF6707A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 115341,
+    "license_plate": "MV5546H",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2020,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 115347,
+    "license_plate": "MV3986E",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2019,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NF6703A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PHV823B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2015,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PFL911C",
+    "type": {
+      "description": "CARS"
+    },
+    "year": 2022,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PLE369C",
+    "type": {
+      "description": "CARS"
+    },
+    "year": 2000,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "4058ZP",
+    "type": {
+      "description": "CAMION"
+    },
+    "year": 2016,
+    "invoice_code_configuration": "C2"
+  },
+  {
+    "id": 710513,
+    "license_plate": "NS7923A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2014,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PLF650C",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2014,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 694399,
+    "license_plate": "MX1912B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2016,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 711920,
+    "license_plate": "PLE360C",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 642801,
+    "license_plate": "MX1909B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2021,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 487685,
+    "license_plate": "JX60524",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 142611,
+    "license_plate": "MT0993H",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2006,
+    "invoice_code_configuration": "C2"
+  },
+  {
+    "id": 257904,
+    "license_plate": "MX7704A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2015,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "PGD832F",
+    "type": {
+      "description": "CARS"
+    },
+    "year": 2012,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "ND4284A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2019,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "MX1913B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2016,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 629349,
+    "license_plate": "PPM335B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "JX78094",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2017,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 656435,
+    "license_plate": "PPM334B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2014,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": 708658,
+    "license_plate": "NS7925A",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2015,
+    "invoice_code_configuration": "VL"
+  },
+  {
+    "id": null,
+    "license_plate": "NA0794B",
+    "type": {
+      "description": "SMALL VAN"
+    },
+    "year": 2007,
+    "invoice_code_configuration": "VL"
+  }
+]
