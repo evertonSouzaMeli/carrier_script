@@ -3,7 +3,7 @@ const path = require('path');
 const xlsx = require("xlsx");
 const Excel = require('exceljs');
 
-const root_path = '/Users/masoares/Documents/workspace/carrier_script/';
+const root_path = '/Users/evertosilva/Desktop/carrier_script/';
 
 const wb = new Excel.Workbook();
 
@@ -11,6 +11,7 @@ const init = async (carrier_name) => {
   let file = await find_by_name_and_extension('./', `${carrier_name}_non_normalized`, 'xlsx')
 
   await normalize_sheet(file, 'Conductores ya registrados')
+
 
   await normalize_sheet(file, 'Vehículo ya registrados')
 
