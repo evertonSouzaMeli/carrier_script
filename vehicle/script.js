@@ -4,12 +4,12 @@ const axios = require("axios");
 const fs = require('fs/promises');
 const path = require('path');
 
-const root_path = '/Users/evertosilva/Desktop/carrier_script/';
+const root_path = 'DIRETORIO ROOT';
 
 /** release ou prod **/
 const scope = 'prod'
 
-const token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ0ZDlhMGQzLWM4YTItNDY0Yi1hMGE5LWU3MWM2OTA0MjExNiIsInR5cCI6IkpXVCJ9.eyJhZGRpdGlvbmFsX2luZm8iOnsiZW1haWwiOiJldmVydG9uLnZzaWx2YUBtZXJjYWRvbGl2cmUuY29tIiwiZnVsbF9uYW1lIjoiRXZlcnRvbiBEZSBTb3V6YSBTaWx2YSIsInVzZXJuYW1lIjoiZXZlcnRvc2lsdmEifSwiZXhwIjoxNjcxNjk0ODM4LCJpYXQiOjE2NzE2NjI0MzgsImlkZW50aXR5IjoibXJuOnNlZ2luZjphZDp1c2VyL2V2ZXJ0b3NpbHZhIiwiaXNzIjoiZnVyeV90aWdlciIsInN1YiI6ImV2ZXJ0b3NpbHZhIn0.u73ACEnNuXqTvBwijDlLQwBPvuzBdRj4wRjZlBjnR5uBKBhkoixq8K-4vSX0OawXgG4AIfxoJFy9dMHF9WrEqzkNZa6vnD54zy0rV17WMq9koli41Xa6nYam_0mdkEy5xEtIylpKLXrXwERD9Q2RsdsogqZ9TqRkAYom_Ke9WyMRukHbdRKuC1zQ7XmVKY0OOm3muD8-YsaWtfjSXyaVlNyENSgyJOK2jC7JNCK3YBAuhh4c_Da1n7QQpZa6S0ziJZKOwt5U7yNBaIZW_TEGCwpNrspwdgizSTjmsMZ99UUJjH5WYHmgaIu7X4maWsU2N1tmVrhqAcZwJN0jK_y-Jg'
+const token = 'FURY_TOKEN'
 
 const init = async (carrier_name) => {
     carrier_name = carrier_name.toLowerCase()
@@ -220,7 +220,7 @@ async function verify_if_vehicle_updated(carrier_name, registered_vehicles, unre
 
         let updated = (vehicle.invoice_code_configuration === res.invoice_code_configuration) && (vehicle.year === res.year)
 
-        let message = `Vehicle ${vehicle.id} `.concat(updated ? `was updated successfully` : `has not been updated`)
+        let message = `Vehicle id: ${vehicle.id}, license_plate: ${vehicle.license_plate}, `.concat(updated ? `was updated successfully` : `has not been updated`)
 
         messages.push(message)
 
@@ -261,11 +261,11 @@ const register_vehicles = async (carrier_name, vehicles) => {
 
                 let update_vehicle = req.data;
 
-                console.log(`Vehicle ${req.data.id} successfully updated`)
+                console.log(`Vehicle id: ${req.data.id}, license_plate: ${vehicle.license_plate} successfully updated`)
                 registered_vehicles.push(update_vehicle)
             } else {
                 cause_error = 'NULL_INFORMATION'
-                console.log(`Unable to update the vehicle ${vehicle.id} because contains null information`)
+                console.log(`Unable to update the vehicle ${vehicle.id}, license_plate: ${vehicle.license_plate} because contains null information`)
                 unregistered_vehicles.push({id: vehicle.id, license_plate: vehicle.license_plate, cause: cause_error})
             }
         } catch (err) {
@@ -299,4 +299,4 @@ const register_vehicles = async (carrier_name, vehicles) => {
     }
 }
 
-init('mextrader').then(() => console.log('END'))
+init('').then(() => console.log('END'))

@@ -4,7 +4,7 @@ const axios = require("axios");
 const fs = require('fs/promises');
 const path = require('path');
 
-const root_path = '/Users/masoares/Documents/workspace/carrier_script/';
+const root_path = 'DIRETORIO ROOT';
 
 const init = async (carrier_name) => {
   carrier_name = carrier_name.toLowerCase()
@@ -324,4 +324,4 @@ const get_carrier_id_by_name = (carrier_name) => {
     return null
 }
 
-init('zouny').then(() => console.log('END'))
+init('').then(() => console.log('END'))
